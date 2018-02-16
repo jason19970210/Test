@@ -11,5 +11,5 @@ List
 - Second Layer
 
 Task List
-[x] First Task
-[ ] Second Task
+[] First Task
+[] Second Task
