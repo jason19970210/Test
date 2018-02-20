@@ -6,6 +6,7 @@
 								<<  git checkout  <<  
 
 
+
 	> git 							// get help of git command
 	> git init						// create a new repository (repo)
 	> git clone						//
@@ -39,7 +40,7 @@
 	> git push origin :branch_name 	// 刪除遠端分支
 
 	> git stash save 				// 將目前狀況存下來
-	> git stash apply				// 把最後一次的 stash拿出來用
+	> git stash apply				// 把最後一次的 stash 拿出來用
 	> git stash drop 				// 刪除最後一次的 stash
 
 
