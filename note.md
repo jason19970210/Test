@@ -1,5 +1,3 @@
-# Python3
-
 # GitHub
 
 >> Working direction   > git add >   Staging Area   > git commit >   Repository
@@ -113,6 +111,9 @@
 # Jupyter-Notebook
 	>
 
+# Python3
+	> 
+
 # Swift
 	> make webView support URL with "http"    	>>  right click on info.plist
 													> open as -> Source Code
@@ -138,9 +139,6 @@
 
 # C+
 	> 
-
-# C#
-	>
 
 # Arduino
 	> int pin;
@@ -171,6 +169,9 @@
 
 # Machine Learning
 	> http://www.r2d3.us/圖解機器學習第一章/
+
+# C#
+	> 
 
 ## WEB
 >>> Html & CSS 排版 / Javascript 邏輯
