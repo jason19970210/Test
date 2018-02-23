@@ -5,8 +5,6 @@
 >> Working direction   > git add >   Staging Area   > git commit >   Repository
 								<<  git checkout  <<  
 
-
-
 	> git 							// get help of git command
 	> git init						// create a new repository (repo)
 	> git clone						//
@@ -116,7 +114,27 @@
 	>
 
 # Swift
-	>
+	> make webView support URL with "http"    	>>  right click on info.plist
+													> open as -> Source Code
+													copy & paste
+													"<key>NSAppTransportSecurity</key>
+													 <dict>
+    												 	<key>NSAllowsArbitraryLoads</key>
+    													<true/>
+													 </dict>"
+
+												>>  select info.plist on the right under project folder
+													right click choose "Add Row"
+													selcet "App Transport Security Settings"
+													click on the arrow to make it down as a Dictionary
+													press the + and choose "Allow Arbitary Loads"
+													the default value is boolean: NO , turn it to "YES"
+
+	> Web View (deprecated) 	>> work with iOS 9 and above
+									>> use the standard import which is UIKit
+
+	> WebKit View 				>> support iOS 11 and newer
+									>> must import WebKit in ViewController
 
 # C+
 	> 
@@ -124,14 +142,40 @@
 # C#
 	>
 
+# Arduino
+	> int pin;
+
+	> void setup() {				// Do once when launch
+		Serial.begin(9600);
+	}
+
+	> void loop() {					// Reapeat
+
+	}
+
 # SQL
 	> select 	// take data
 	> insert	// put data in
 	> update	// update data
 	> drop		// delete data
 
+# Internet
+	> Ethernet
+	> Wifi
+	> Mobile Network
+		> 3G
+		> LTE
+		> 4G
+		> LAA: http://www.ttc.org.tw/userfiles/file/20151104/20151104090423_39805.pdf
+		> LTE-U
+
+# Machine Learning
+	> http://www.r2d3.us/圖解機器學習第一章/
+
 ## WEB
 >>> Html & CSS 排版 / Javascript 邏輯
+	> https://developer.mozilla.org/zh-TW/docs/Learn/Getting_started_with_the_web/Installing_basic_software
+# HTTP
 
 # HTML
 	> <HTML> </HTML>	// 文件宣告
@@ -155,7 +199,26 @@
 
 # CSS
 
-# PHP
+# PHP  > PHP: Hypetext Preprocessor (PHP: 超文字預處理器) (Personal Home Page)
+		> 註解：/* */, //, #
+		> 資料型態 -- 變數：整數(integer), 浮點數(float), 布林值(boolean), 字串(string)
+				  |- 複合類型：陣列(Array), 物件(object)
+				  |- 特殊類型：NULL, 資源(resource)
+
+	>	<?php
+           	.....
+		?>				// PHP 剖析引擎只針對 <?php ?> 其他內容則會被送出
+
+	>	<?php
+			-PHP-
+		?>
+
+		HTML
+
+		<?php
+			-php-
+		?>				// 將 PHP 嵌入 HTML 中
+
 
 # Markdown
   Reference
@@ -172,4 +235,7 @@
 	> ping
 	> traceroute
 	> sudo spctl --master-disable // allow the Mac to install from anywhere
-	> atom . // open atom and cd to the file
+	> atom . // open atom, then open the files in the folder
+	> nslookup google.com // check the DNS server
+	> nslookup - xx.xx.xx.xx // use xx.xx.xx.xx as the DNS server
+	
