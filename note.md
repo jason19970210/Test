@@ -230,13 +230,13 @@
 # Terminal
 	> ls
 	> cd
-	> cd .. // go back the former direction
-	> mkdir // create folder
-	> touch // 新增檔案
+	> cd .. 							// go back the former direction
+	> mkdir 							// create folder
+	> touch 							// 新增檔案
 	> ping
 	> traceroute
-	> sudo spctl --master-disable // allow the Mac to install from anywhere
-	> atom . // open atom, then open the files in the folder
-	> nslookup google.com // check the DNS server
-	> nslookup - xx.xx.xx.xx // use xx.xx.xx.xx as the DNS server
+	> sudo spctl --master-disable 		// allow the Mac to install from anywhere
+	> atom . 							// open atom, then open the files in the folder
+	> nslookup google.com 				// check the DNS server
+	> nslookup - xx.xx.xx.xx 			// use xx.xx.xx.xx as the DNS server
 	
