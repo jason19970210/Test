@@ -112,6 +112,13 @@
 	>
 
 # Python3
+	> 註解 : #
+	> ShortCuts
+		> Shift - Enter			// run selected cell and turn to next cell as the code mode
+		>  Ctrl - Enter			// run selected cell 
+		> Double press "D"		// delete selected cell
+		> shift - M 			// Merge selected cells
+		
 	> func : BeautifulSoap >> 解析HTML
 	> 正則表達式 : Regular Expression : 
 	> Use 	request
@@ -123,6 +130,7 @@
 	> Source Base : Numpy, Pandas, SciPy, Matplotlib, Seaborn, ggplot
 		Scikit : Preprocessing, Dimentionality reduction, Model selection, Mining/Learning, Experiment
 
+	> for 迴圈
 	> 
 
 # Swift
