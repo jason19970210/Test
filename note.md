@@ -82,7 +82,7 @@
   				</head>
 
   				<body>
-    				<h1>覺得厲害</h1>
+    				<h1>  ...  </h1>
   				</body>
 			</html>
 
@@ -112,6 +112,17 @@
 	>
 
 # Python3
+	> func : BeautifulSoap >> 解析HTML
+	> 正則表達式 : Regular Expression : 
+	> Use 	request
+			pandas
+			sklearn
+			jieba
+			wordcloud
+
+	> Source Base : Numpy, Pandas, SciPy, Matplotlib, Seaborn, ggplot
+		Scikit : Preprocessing, Dimentionality reduction, Model selection, Mining/Learning, Experiment
+
 	> 
 
 # Swift
@@ -179,10 +190,23 @@
 # HTTP
 
 # HTML
-	> <HTML> </HTML>	// 文件宣告
-	> <Head> </Head>
-	> <BODY> </BODY>
-		> backgroung : ;
+	-> Structure : DOM (Document Object Model)
+		> Tags	
+			> <h1> - <h6>		標題
+			> <p>				段落
+			> <a>				超連結				<a herf="https://www.google.com/"> Google Website </a>
+			> <table>			表格
+				> <tr>			表格內的 row
+				> <td>			表格內的 cell
+			> <br/>				換行(無結束標籤)
+
+		> Attributes 屬性
+			> class				標籤的類別(可重複)
+			> id 				標籤的id (不可重複)
+			> title 			標籤的顯示資訊
+			> style 			標籤樣式
+			> data-*			自定義新屬性
+		>> 一個標籤可以同時存在多種屬性
 
 
 > Fun Example
@@ -198,7 +222,9 @@
   Reference
 	> http://larry850806.github.io/2016/07/16/JS-tips/
 
-# CSS
+# CSS  > Cascading Style Sheets (串接樣式表)
+			> 用來替 HTML 增加 Style     ex. color, font size, font type ...
+	> 
 
 # PHP  > PHP: Hypetext Preprocessor (PHP: 超文字預處理器) (Personal Home Page)
 		> 註解：/* */, //, #
@@ -220,6 +246,7 @@
 			-php-
 		?>				// 將 PHP 嵌入 HTML 中
 
+# JSON
 
 # Markdown
   Reference
@@ -239,4 +266,5 @@
 	> atom . 							// open atom, then open the files in the folder
 	> nslookup google.com 				// check the DNS server
 	> nslookup - xx.xx.xx.xx 			// use xx.xx.xx.xx as the DNS server
+	> pip3 install matplotlib 			// use pip3 command to install matplotlib
 	
