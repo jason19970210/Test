@@ -90,7 +90,7 @@
 	> git commit -m "add index"
 	> 
 
-  . First use termianl to cd where you want to put the file
+  . First use termianl to "cd" where you want to put the file
   . Use 'git clone URL' then it will be downloaded to the direction
 
   . mkdir file_name
@@ -471,3 +471,4 @@
 	> nslookup - xx.xx.xx.xx 			// use xx.xx.xx.xx as the DNS server
 	> pip3 install matplotlib 			// use pip3 command to install matplotlib
 	
+# Hacker
