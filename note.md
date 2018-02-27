@@ -1,6 +1,6 @@
 # GitHub
 
->> Working direction   > git add >   Staging Area   > git commit >   Repository
+> Working direction   > git add >   Staging Area   > git commit >   Repository
 								<<  git checkout  <<  
 
 	> git 							// get help of git command
@@ -399,7 +399,7 @@
 		>> 
 	>> Entity-Relationship Model, ERM (實體關係模型)
 		>> Entity Realation Diagram, ERD
-			
+
 
 ## WEB
 >>> Html & CSS 排版 / Javascript 邏輯
