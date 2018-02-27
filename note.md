@@ -1,23 +1,24 @@
 # GitHub
 
 > Working direction   > git add >   Staging Area   > git commit >   Repository 
-
-	- git 							// get help of git command
-	- git init						// create a new repository (repo)
-	- git clone						//
-	- git \s 						// get status
-	- git add <file name>			//
-	- git commit -m "..."			// give description to the file
-	- git push						// 
-	- git push origin master
-	- git push origin branch_name 	// 上傳分支到 origin node
-	- git push --set-upstream origin branch_name
-	- git push -f 					// or call git push --force
-	- git pull						// update local version from github     >>> git pull = git fetch + git merge
-	- git add .						// add all the files without a commit
-	- git add --all 				//
-	- git commit -am "..." 			// add everything and give the commit
-	- git log 						// show all the commits overtime
+	| Command 						| Note|
+	| :-----------------------------|-----|
+	| git 							| get help of git command|
+	| git init						| create a new repository (repo)|
+	| git clone						||
+	| git \s 						| get status|
+	| git add <file name>			||
+	| git commit -m "..."			| give description to the file|
+	| git push						| |
+	| git push origin master
+	| git push origin branch_name 	// 上傳分支到 origin node
+	| git push --set-upstream origin branch_name
+	| git push -f 					// or call git push --force
+	| git pull						// update local version from github     >>> git pull = git fetch + git merge
+	| git add .						// add all the files without a commit
+	| git add --all 				//
+	| git commit -am "..." 			// add everything and give the commit
+	| git log 						// show all the commits overtime
 		> git log -p -2 			// 顯示每個更新之間差別的內容, 限制為只輸出最後兩個更新
 		> git log --stat 			// 檢視每個更新的簡略統計資訊
 		> git log --oneline 		//
