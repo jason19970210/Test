@@ -1,6 +1,6 @@
 # GitHub
 
-> Working direction   > git add >   Staging Area   > git commit >   Repository
+Working direction   > git add >   Staging Area   > git commit >   Repository
 								<<  git checkout  <<  
 
 	> git 							// get help of git command
