@@ -1,7 +1,6 @@
 # GitHub
 
->> Working direction   > git add >   Staging Area   > git commit >   Repository
-								<<  git checkout  <<  
+> Working direction   > git add >   Staging Area   > git commit >   Repository 
 
 	- git 							// get help of git command
 	- git init						// create a new repository (repo)
