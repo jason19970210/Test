@@ -1,50 +1,50 @@
 # GitHub
 
-> Working direction   > git add >   Staging Area   > git commit >   Repository 
-	| Command 						| Note|
-	| :-----------------------------|-----|
-	| git 							| get help of git command|
-	| git init						| create a new repository (repo)|
-	| git clone						||
-	| git \s 						| get status|
-	| git add <file name>			||
-	| git commit -m "..."			| give description to the file|
-	| git push						| |
-	| git push origin master
-	| git push origin branch_name 	// 上傳分支到 origin node
-	| git push --set-upstream origin branch_name
-	| git push -f 					// or call git push --force
-	| git pull						// update local version from github     >>> git pull = git fetch + git merge
-	| git add .						// add all the files without a commit
-	| git add --all 				//
-	| git commit -am "..." 			// add everything and give the commit
-	| git log 						// show all the commits overtime
+>> Working direction   > git add >   Staging Area   > git commit >   Repository
+								<<  git checkout  <<  
+
+	> git 							// get help of git command
+	> git init						// create a new repository (repo)
+	> git clone						//
+	> git \s 						// get status
+	> git add <file name>			//
+	> git commit -m "..."			// give description to the file
+	> git push						// 
+	> git push origin master
+	> git push origin branch_name 	// 上傳分支到 origin node
+	> git push --set-upstream origin branch_name
+	> git push -f 					// or call git push --force
+	> git pull						// update local version from github     >>> git pull = git fetch + git merge
+	> git add .						// add all the files without a commit
+	> git add --all 				//
+	> git commit -am "..." 			// add everything and give the commit
+	> git log 						// show all the commits overtime
 		> git log -p -2 			// 顯示每個更新之間差別的內容, 限制為只輸出最後兩個更新
 		> git log --stat 			// 檢視每個更新的簡略統計資訊
 		> git log --oneline 		//
-	- git checkout -b branch_name 	// create a new branch and switch to it
-	- git branch 					// show the branches
+	> git checkout -b branch_name 	// create a new branch and switch to it
+	> git branch 					// show the branches
 		> git branch branch_name
 		> git branch -D branch_name
-	- git branch --delete branch_name // delete the branch
-	- git checkout branch_name 		// change the branch to the other one
-	- git push -u origin master
+	> git branch --delete branch_name // delete the branch
+	> git checkout branch_name 		// change the branch to the other one
+	> git push -u origin master
 	
-	- git remote add origin			// 新增遠端節點
+	> git remote add origin			// 新增遠端節點
 		> git remote rm origin		// 刪除遠端節點
-	- git remote -v 				// 檢視遠端節點
-	- git push origin :branch_name 	// 刪除遠端分支
+	> git remote -v 				// 檢視遠端節點
+	> git push origin :branch_name 	// 刪除遠端分支
 
-	- git stash save 				// 將目前狀況存下來
-	- git stash apply				// 把最後一次的 stash 拿出來用
-	- git stash drop 				// 刪除最後一次的 stash
-
-
-	- git config user.name 	// check user name
-	- git config user.email // check user email
+	> git stash save 				// 將目前狀況存下來
+	> git stash apply				// 把最後一次的 stash 拿出來用
+	> git stash drop 				// 刪除最後一次的 stash
 
 
-	- 	echo "# Note" >> README.md 	// echo "..." >> file_name    >> create a new file and add text in
+	> git config user.name 	// check user name
+	> git config user.email // check user email
+
+
+	> 	echo "# Note" >> README.md 	// echo "..." >> file_name    >> create a new file and add text in
 		git init
 		git add README.md
 		git commit -m "first commit"
@@ -399,7 +399,7 @@
 		>> 
 	>> Entity-Relationship Model, ERM (實體關係模型)
 		>> Entity Realation Diagram, ERD
-
+			
 
 ## WEB
 >>> Html & CSS 排版 / Javascript 邏輯
