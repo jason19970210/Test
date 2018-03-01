@@ -11,10 +11,10 @@
 >> + git commit -m <commit>
 >> > git commit -am <commit>
 >> + git push
->> > git push origin master
->> > git push origin <branch_name>
->> > git push --set-upstream origin <branch_name>
->> > git push -f
+>> > git push origin master<br/>
+>> > git push origin <branch_name><br/>
+>> > git push --set-upstream origin <branch_name><br/>
+>> > git push -f<br/>
 >> > git push -u origin master
 >> + git pull
 >> > pull = git fetch + git merge
