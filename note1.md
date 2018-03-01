@@ -5,12 +5,13 @@
 + Python3
 + Jupyter Notebook
 + C#
++ Communication
 + SQL
 + Web
-> + HTML
-> + CSS
-> + PHP
-> + JS
+> +HTML
+> +CSS
+> +PHP
+> +JS
 
 
 ## GitHub
@@ -73,6 +74,7 @@
 # Python3
 # Jupyter Notebook
 # C#
+# Communication
 # SQL
 # Web
 ## HTTP
