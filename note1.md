@@ -48,10 +48,10 @@
 > + git config --global user.email <user.email>
 
 
-## Reference
-+ Git Push：https://gitbook.tw/chapters/github/push-to-github.html
-+ Git 管控：https://gitbook.tw/chapters/using-git/add-to-git.html
-+ Git Ignore：https://www.gitignore.io/
+> #### Reference
+> + Git Push：https://gitbook.tw/chapters/github/push-to-github.html
+> + Git 管控：https://gitbook.tw/chapters/using-git/add-to-git.html
+> + Git Ignore：https://www.gitignore.io/
 
 ----
 
