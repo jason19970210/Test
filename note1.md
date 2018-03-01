@@ -32,10 +32,10 @@
 >> > git branch --delete <branch_name>  
 >> 
 >> + git remote
->> > git remote add origin
->> > git remote rm origin
->> > git remote -v
->> > git push origin :<branch_name>
+>> > git remote add origin  
+>> > git remote rm origin  
+>> > git remote -v  
+>> > git push origin :<branch_name>  
 >> 
 >> + git stash
 >> > git stash save  
