@@ -21,26 +21,26 @@
 >> + git add .
 >> > git add --all
 >> + git log
->> > git log -p -2
->> > git log --stat
->> > git log --oneline
+>> > git log -p -2<br\>
+>> > git log --stat<br\>
+>> > git log --oneline<br\>
 >> + git checkout -b <branch_name>
 >> > git checkout <branch_name>
 >> + git branch
->> > git branch <branch_name>
->> > git branch -D <branch_name>
->> > git branch --delete <branch_name> <br/>
+>> > git branch <branch_name><br\>
+>> > git branch -D <branch_name><br\>
+>> > git branch --delete <branch_name> <br\>
 >> 
 >> + git remote
->> > git remote add origin
->> > git remote rm origin
->> > git remote -v
+>> > git remote add origin<br\>
+>> > git remote rm origin<br\>
+>> > git remote -v<br\>
 >> > git push origin :<branch_name>
 >> 
 >> + git stash
->> > git stash save
->> > git stash apply
->> > git stash drop
+>> > git stash save<br\>
+>> > git stash apply<br\>
+>> > git stash drop<br\>
 >> 
 >> + git config user.name
 >> + git config user.email
