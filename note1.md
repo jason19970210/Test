@@ -1,4 +1,17 @@
 # NOTE
+# Contents
+
++ Swift
++ Python3
++ Jupyter Notebook
++ C#
++ SQL
++ Web
+++ HTML
+++ CSS
+++ PHP
+++ JS
+
 
 ## GitHub
 > #### Command Lines
@@ -59,7 +72,7 @@
 # Swift
 # Python3
 # Jupyter Notebook
-# C\#
+# C#
 # SQL
 # Web
 ## HTTP
