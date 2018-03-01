@@ -11,10 +11,10 @@
 >> + git commit -m <commit>
 >> > git commit -am <commit>
 >> + git push
->> > git push origin master<br\>
->> > git push origin <branch_name><br\>
->> > git push --set-upstream origin <branch_name><br\>
->> > git push -f<br\>
+>> > git push origin master<br/>
+>> > git push origin <branch_name><br/>
+>> > git push --set-upstream origin <branch_name><br/>
+>> > git push -f<br/>
 >> > git push -u origin master
 >> + git pull
 >> > pull = git fetch + git merge
@@ -27,8 +27,8 @@
 >> + git checkout -b <branch_name>
 >> > git checkout <branch_name>
 >> + git branch
->> > git branch <branch_name>
->> > git branch -D <branch_name>
+>> > git branch <branch_name><br/>
+>> > git branch -D <branch_name><br/>
 >> > git branch --delete <branch_name> <br/>
 >> 
 >> + git remote
