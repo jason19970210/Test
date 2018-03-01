@@ -38,9 +38,9 @@
 >> > git push origin :<branch_name>
 >> 
 >> + git stash
->> > git stash save
->> > git stash apply
->> > git stash drop
+>> > git stash save  
+>> > git stash apply  
+>> > git stash drop  
 >> 
 >> + git config user.name
 >> + git config user.email
