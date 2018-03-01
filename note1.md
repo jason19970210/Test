@@ -7,10 +7,10 @@
 + C#
 + SQL
 + Web
-++ HTML
-++ CSS
-++ PHP
-++ JS
+> + HTML
+> + CSS
+> + PHP
+> + JS
 
 
 ## GitHub
