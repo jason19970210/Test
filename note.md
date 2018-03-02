@@ -272,10 +272,10 @@ Using `UTF-8`,`Unicode Strings`
 <a name="Code" />
 
 + Code
-	<a name="In-Line" />
+<a name="In-Line" />
 
 	+ In-Line
-	<a name="Highlight" />
+<a name="Highlight" />
 
 	+ Highlight
 
