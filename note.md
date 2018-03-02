@@ -11,7 +11,7 @@
 	+ #### 註解
 	+ #### 資料型態
 
-+ ### [Jupyter Notebook](#Jupyter Notebook)
++ ### [Jupyter_Notebook](#Jupyter_Notebook)
 	+ #### Shortcuts
 
 + ### C#
@@ -145,7 +145,7 @@ Using `UTF-8`,`Unicode Strings`
 
 ### 資料型態
 
-<a name="Jupyter Notebook" />
+<a name="Jupyter_Notebook" />
 
 # Jupyter Notebook
 
