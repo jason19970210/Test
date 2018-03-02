@@ -285,10 +285,11 @@ Using `UTF-8`,`Unicode Strings`
 	<a name="URL" />
 
 	- URL  
-		<a name="With_Text">
 
-		- With Text  
-	<a name="In-Page" />
+<a name="With_Text">
+		- With Text 
+		 
+<a name="In-Page" />
 
 	- In-Page
 
