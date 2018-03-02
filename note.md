@@ -1,6 +1,8 @@
 # NOTE
 # Contents
 
+See the [Introduction](#introduction).
+
 + ### GitHub
 	+ #### Command Lines
 	+ #### GitHub Pages
