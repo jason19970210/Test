@@ -102,7 +102,7 @@
 	+ set project name to `username.github.io`  
     + set up an empty REPO  
     + add a HTML file name `index.html`  
-	```
+	```html
 	<!DOCTYPE html>
 		<html>
 		   	<head>
