@@ -50,9 +50,9 @@
     git branch `branch name`  
     git branch -D `branch name`  
     git branch --delete `branch name`  
-> 
-+ git remote
-    git remote add origin  
+
++ 	git remote  
+	git remote add origin  
     git remote rm origin  
     git remote -v  
 
@@ -61,10 +61,11 @@
     git stash apply  
     git stash drop
 
-+   git config user.name
++   git config user.name  
     git config user.email
-+   git config --global user.name `user name`
-    git config --global user.email `user email`
+
++   git config --global user.name `user name`  
+    git config --global user.email `user email`  
 
 ### GitHub Pages
 + static page like HTML as well
