@@ -1,13 +1,11 @@
 # NOTE
 # Contents
 
-See the [Swift](#Swift).
-
 + ### GitHub
 	+ #### Command Lines
 	+ #### GitHub Pages
 
-+ ### Swift
++ ### [Swift](#Swift)
 
 + ### Python3
 	+ #### 註解
@@ -123,8 +121,8 @@ See the [Swift](#Swift).
 
 ----
 
-
-# [Swift](#Swift)
+<a name="Swift" />
+# Swift
 
 # Python3
 
