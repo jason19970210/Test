@@ -25,6 +25,13 @@
 	+ #### CSS
 	+ #### PHP
 	+ #### JS
+	+ #### JSON
+
++ ### Markdown
+
++ ### Terminal
+
++ ### Hacker
 
 
 # GitHub
@@ -124,11 +131,11 @@ Using `UTF-8`,`Unicode Strings`
 ### 註解
 + 單行註解：`# 註解`
 + 多行註解：
-<pre><code>
-```
-註解 
-```
-</code></pre>
+	<pre><code>
+	```
+	註解 
+	```
+	</code></pre>
 
 ### 資料型態
 
@@ -152,3 +159,10 @@ Using `UTF-8`,`Unicode Strings`
 ## PHP
 ## CSS
 ## JS
+## JSON
+
+# Markdown
+
+# Terminal
+
+# Hacker
