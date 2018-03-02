@@ -2,7 +2,7 @@
 # Contents
 
 + ### GitHub
-	+ #### [Command Lines](#Command Lines)
+	+ #### [Command_Lines](#Command_Lines)
 	+ #### GitHub Pages
 
 + ### [Swift](#Swift)
@@ -37,7 +37,7 @@
 
 # GitHub
 
-<a name="Cammand Lines" />
+<a name="Cammand_Lines" />
 
 ### Command Lines
 +   git
