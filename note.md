@@ -125,9 +125,9 @@ Using `UTF-8`,`Unicode Strings`
 + 單行註解：`# 註解`
 + 多行註解：
 <pre><code>
-```			"""
-註解   or 	
-```			"""
+```
+註解 
+```
 </code></pre>
 
 ### 資料型態
