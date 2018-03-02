@@ -33,7 +33,7 @@
 + ### [Markdown](#Markdown)
 	+ #### [Quote](#Quote)
 	+ #### [Code](#Code)
-		- ##### In-Line
+		- ##### [In-Line](#In-Line)
 		- ##### Highlight
 	+ #### [Link](#Link)
 		- ##### [URL](#URL)
