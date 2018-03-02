@@ -267,17 +267,17 @@ Using `UTF-8`,`Unicode Strings`
 # Terminal
 
 + ls
-> List all files in this path
+	> List all files in this path
 + cd
 + cd ..
 + mkdir
-> Create folder
+	> Create folder
 + touch
-> Create file
+	> Create file
 + ping
 + traceroute
 + sudo spctl --master-disable
-> Allow Mac to install applications from any **Anywhere**
+	> Allow Mac to install applications from any **Anywhere**
 + nslookup google.com 
 + nslookup - xx.xx.xx.xx
 + pip3 install matplotlib
