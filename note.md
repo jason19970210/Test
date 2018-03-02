@@ -1,8 +1,10 @@
 # NOTE
 # Contents
 
-<pre><code>```
-	```
+<pre><code>
+```
+text
+```
 </code></pre>
 
 + ### GitHub
