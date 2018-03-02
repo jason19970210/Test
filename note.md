@@ -3,35 +3,35 @@
 
 + ### [GitHub](#GitHub)
 	+ #### [Command Lines](#Command_Lines)
-	+ #### GitHub Pages
+	+ #### [GitHub Pages](#GitHub_Pages)
 
 + ### [Swift](#Swift)
 
 + ### [Python3](#Python3)
-	+ #### 註解
-	+ #### 資料型態
+	+ #### [註解](#註解)
+	+ #### [資料型態](#資料型態)
 
 + ### [Jupyter Notebook](#Jupyter_Notebook)
-	+ #### Shortcuts
+	+ #### [Shortcuts](#Shortcuts)
 
-+ ### C#
++ ### [C#](#C#)
 
-+ ### Communication
++ ### [Communication](#Communication)
 
-+ ### SQL
++ ### [SQL](#SQL)
 
-+ ### Web
-	+ #### HTML
-	+ #### CSS
-	+ #### PHP
-	+ #### JS
-	+ #### JSON
++ ### [Web](#Web)
+	+ #### [HTML](#HTML)
+	+ #### [CSS](#CSS)
+	+ #### [PHP](#PHP)
+	+ #### [JS](#JS)
+	+ #### [JSON](#JSON)
 
-+ ### Markdown
++ ### [Markdown](#Markdown)
 
-+ ### Terminal
++ ### [Terminal](#Terminal)
 
-+ ### Hacker
++ ### [Hacker](#Hacker)
 
 <a name="GitHub" />
 
@@ -90,7 +90,7 @@
 +   git config --global user.name `user name`  
     git config --global user.email `user email`  
 
-<a name="GitHub Pages" />
+<a name="GitHub_Pages" />
 
 ### GitHub Pages
 + static page like HTML as well
@@ -136,6 +136,9 @@
 
 Using `UTF-8`,`Unicode Strings`
 
+
+<a name="註解" />
+
 ### 註解
 + 單行註解：`# 註解`
 + 多行註解：
@@ -145,11 +148,15 @@ Using `UTF-8`,`Unicode Strings`
 	```
 	</code></pre>
 
+<a name="資料型態" />
+
 ### 資料型態
 
 <a name="Jupyter_Notebook" />
 
 # Jupyter Notebook
+
+<a name="Shortcuts" />
 
 ### Shortcuts
 
@@ -158,21 +165,41 @@ Using `UTF-8`,`Unicode Strings`
 + Double press "D"
 + Shift - M
 
+
+<a name="C#" />
 # C#
 
+<a name="Communication" />
 # Communication
 
+
+<a name="SQL" />
 # SQL
 
+
+<a name="Web" />
 # Web
+
+<a name="HTTP" />
 ## - HTTP
+
+<a name="PHP" />
 ## - PHP
+
+<a name="CSS" />
 ## - CSS
+
+<a name="JS" />
 ## - JS
+
+<a name="JSON" />
 ## - JSON
 
+<a name="Markdown" />
 # Markdown
 
+<a name="Terminal" />
 # Terminal
 
+<a name="Hacker" />
 # Hacker
