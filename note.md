@@ -2,7 +2,7 @@
 # Contents
 
 + ### GitHub
-	+ #### Command Lines
+	+ #### [Command Lines](#Command Lines)
 	+ #### GitHub Pages
 
 + ### [Swift](#Swift)
@@ -33,8 +33,11 @@
 
 + ### Hacker
 
+<a name="GitHub" />
 
 # GitHub
+
+<a name="Cammand Lines" />
 
 ### Command Lines
 +   git
@@ -86,6 +89,8 @@
 
 +   git config --global user.name `user name`  
     git config --global user.email `user email`  
+
+<a name="GitHub Pages" />
 
 ### GitHub Pages
 + static page like HTML as well
