@@ -34,7 +34,7 @@
 	+ #### [Quote](#Quote)
 	+ #### [Code](#Code)
 		- ##### [In-Line](#In-Line)
-		- ##### Highlight
+		- ##### [Highlight](#Highlight)
 	+ #### [Link](#Link)
 		- ##### [URL](#URL)
 			- ###### [With Text](#With_Text)
