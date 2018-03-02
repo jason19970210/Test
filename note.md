@@ -155,11 +155,11 @@ Using `UTF-8`,`Unicode Strings`
 # SQL
 
 # Web
-## + HTTP
-## + PHP
-## + CSS
-## + JS
-## + JSON
+## - HTTP
+## - PHP
+## - CSS
+## - JS
+## - JSON
 
 # Markdown
 
