@@ -201,8 +201,8 @@ Using `UTF-8`,`Unicode Strings`
 <a name="CSS" />
 
 ## - CSS
-Cascading Style Sheets (串接樣式表)  
-用來替HTML增加`Style` ex. Color, Font Size, Font Type...
+- Cascading Style Sheets (串接樣式表)  
+-- 用來替HTML增加`Style` ex. Color, Font Size, Font Type...
 
 <a name="JS" />
 
