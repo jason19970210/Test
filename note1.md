@@ -67,7 +67,7 @@
 + Dont support PHP, ASP, " .htacess",FTP Server 
 + Can be UPLOADED by GIT ONLY
 + GitHub Pages will be PUBLIC  
-> Steps  
+Steps  
 > + set project name to "username.github.io"  
 > + set up an empty REPO  
 > + add a HTML file name "index.html"  
@@ -86,19 +86,34 @@
 
 
 ### Reference
-> + Git Push：https://gitbook.tw/chapters/github/push-to-github.html
-> + Git 管控：https://gitbook.tw/chapters/using-git/add-to-git.html
-> + Git Ignore：https://www.gitignore.io/
++ Git Push：https://gitbook.tw/chapters/github/push-to-github.html
++ Git 管控：https://gitbook.tw/chapters/using-git/add-to-git.html
++ Git Ignore：https://www.gitignore.io/
 
 ----
 
 
 # Swift
+
 # Python3
+### 註解
+### 資料型態
+
 # Jupyter Notebook
+
+### Shortcuts
+
++ Shift - Enter
++ Ctrl - Enter
++ Double press "D"
++ Shift - M
+
 # C#
+
 # Communication
+
 # SQL
+
 # Web
 ## HTTP
 ## PHP
