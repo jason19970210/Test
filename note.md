@@ -106,9 +106,26 @@
 
 # Python3
 
-Using `UTF-8`,	`Unicode Strings`
+Using `UTF-8`,`Unicode Strings`
 
 ### 註解
++ 單行註解：#
++ 多行註解：
+```
+	```
+	<!DOCTYPE html>
+		<html>
+		   	<head>
+				<meta charset="utf-8">
+					<title>Hi, GitHub</title>
+			</head>
+			<body>
+				<h1>...</h1>
+			</body>
+		</html>
+	```	
+```
+
 ### 資料型態
 
 # Jupyter Notebook
