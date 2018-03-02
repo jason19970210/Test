@@ -91,6 +91,7 @@
 	```
 	+ git add index.html  
 	+ git commit -m "add index"
+	+ git push
 
 
 ### Reference
@@ -104,6 +105,9 @@
 # Swift
 
 # Python3
+
+Using `UTF-8`,	`Unicode Strings`
+
 ### 註解
 ### 資料型態
 
