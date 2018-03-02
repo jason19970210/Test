@@ -249,7 +249,15 @@ Using `UTF-8`,`Unicode Strings`
 <a name="Markdown" />
 
 # Markdown
-+ 
+
++ Quote
++ Code
++ Link
+	- URL
+		- With Text
+	- In-Page
+
++ Highlight
 
 ### Reference
 
@@ -257,6 +265,23 @@ Using `UTF-8`,`Unicode Strings`
 <a name="Terminal" />
 
 # Terminal
+
++ ls
+> List all files in this path
++ cd
++ cd ..
++ mkdir
+> Create folder
++ touch
+> Create file
++ ping
++ traceroute
++ sudo spctl --master-disable
+> Allow Mac to install applications from any **Anywhere**
++ nslookup google.com 
++ nslookup - xx.xx.xx.xx
++ pip3 install matplotlib
++ ps -ax
 
 ----
 <a name="Hacker" />
