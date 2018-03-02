@@ -77,18 +77,18 @@
 	set project name to `username.github.io`  
     set up an empty REPO  
     add a HTML file name `index.html`  
-		```
-		<!DOCTYPE html>
-			<html>
-			   	<head>
-					<meta charset="utf-8">
-						<title>Hi, GitHub</title>
-				</head>
-				<body>
-					<h1>...</h1>
-				</body>
-			</html>
-		```
+	```
+	<!DOCTYPE html>
+		<html>
+		   	<head>
+				<meta charset="utf-8">
+					<title>Hi, GitHub</title>
+			</head>
+			<body>
+				<h1>...</h1>
+			</body>
+		</html>
+	```
 + git add index.html  
 + git commit -m "add index"
 
