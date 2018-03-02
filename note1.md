@@ -1,17 +1,17 @@
 # NOTE
 # Contents
 
-+ #### Swift
-+ #### Python3
-+ #### Jupyter Notebook
-+ #### C#
-+ #### Communication
-+ #### SQL
-+ #### Web
-    ##### - HTML
-    ##### - CSS
-    ##### - PHP
-    ##### - JS
++ Swift
++ Python3
++ Jupyter Notebook
++ C#
++ Communication
++ SQL
++ Web
+- HTML
+- CSS
+- PHP
+- JS
 
 
 # GitHub
