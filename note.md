@@ -8,8 +8,8 @@
 + ### [Swift](#Swift)
 
 + ### [Python3](#Python3)
-	+ #### [註解](#註解)
-	+ #### [資料型態](#資料型態)
+	+ #### [註解](#Comment)
+	+ #### [資料型態](#Data_Type)
 
 + ### [Jupyter Notebook](#Jupyter_Notebook)
 	+ #### [Shortcuts](#Shortcuts)
@@ -137,7 +137,7 @@
 Using `UTF-8`,`Unicode Strings`
 
 
-<a name="註解" />
+<a name="Comment" />
 
 ### 註解
 + 單行註解：`# 註解`
@@ -148,7 +148,7 @@ Using `UTF-8`,`Unicode Strings`
 	```
 	</code></pre>
 
-<a name="資料型態" />
+<a name="Data_Type" />
 
 ### 資料型態
 
