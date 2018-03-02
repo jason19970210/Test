@@ -14,8 +14,9 @@
 > + JS
 
 
-## GitHub
-> #### Command Lines
+# GitHub
+
+### Command Lines
 > + git 
 > + git init
 > + git clone <https>
@@ -61,8 +62,30 @@
 > + git config --global user.name <user.name>
 > + git config --global user.email <user.email>
 
+### GitHub Pages
++ static page like HTML as well
++ Dont support PHP, ASP, " .htacess",FTP Server 
++ Can be UPLOADED by GIT ONLY
++ GitHub Pages will be PUBLIC  
++ Steps
+> set project name to "username.github.io"
+> set up an empty REPO
+> add a HTML file name "index.html"
+>> <!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+				<title>Hi, GitHub</title>
+		</head>
+		<body>
+			<h1>...</h1>
+		</body>
+	</html>
+>> git add index.html
+>> git commit -m "add index"
 
-> #### Reference
+
+### Reference
 > + Git Push：https://gitbook.tw/chapters/github/push-to-github.html
 > + Git 管控：https://gitbook.tw/chapters/using-git/add-to-git.html
 > + Git Ignore：https://www.gitignore.io/
