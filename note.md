@@ -1,6 +1,8 @@
 # NOTE
 # Contents
 
+- [x] This is a complete item
+
 + ### [GitHub](#GitHub)
 	+ #### [Command Lines](#Command_Lines)
 	+ #### [GitHub Pages](#GitHub_Pages)
@@ -273,11 +275,9 @@ Using `UTF-8`,`Unicode Strings`
 
 + Link
 
-<a name="URL" />
-	- URL  
+	+ URL  
 		- With Text  
 
-<a name="In-Page" />
 	+ In-Page
 
 <a name="Highlight" />
