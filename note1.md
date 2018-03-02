@@ -64,14 +64,14 @@
 
 ### GitHub Pages
 + static page like HTML as well
-+ Dont support PHP, ASP, " .htacess",FTP Server 
++ Dont support 'PHP', 'ASP', "' .htacess'",'FTP Server' 
 + Can be UPLOADED by GIT ONLY
 + GitHub Pages will be PUBLIC
 
 ##### Steps  
-+ set project name to "username.github.io"  
++ set project name to "'username'.github.io"  
 + set up an empty REPO  
-+ add a HTML file name "index.html"  
++ add a HTML file name 'index.html'  
 > <!DOCTYPE html>
 	<html>
 		<head>
