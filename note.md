@@ -41,35 +41,58 @@
 
 ### Command Lines
 +   git
+	> Get help of git command
+
 +   git init
+	> 
+
 +   git clone `https`
+	> 
+
 +   git \s
+	> get status
+
 +   git add `file name`
-+   git commit -m "`commit`"
+
++   git commit -m "`commit`"  
     git commit -am "`commit`"
+    > give description / Comment to the file
   
 +   git push  
+	> Upload the file in Staging Area
     git push origin master  
+    > 
     git push origin `branch name`  
+    > 
     git push --set-upstream origin `branch name`  
+    > 
     git push -f  
+    > Force Push,  also as `$ git push --force`
     git push -u origin master  
+    > 
 
 +   git pull  
     pull = git fetch + git merge
+    > Update local version from GitHub
     
 +   git add .  
-    git add --all
+    > add all changed file to Staging Area,  also as `$ git add --all`
     
 +   git log  
+	> Show all the commits overtime
     git log -p -2  
+    > 顯示每個更新之間差別的內容, 限制為只輸出最後兩個更新
     git log --stat  
+    > 檢視每個更新的簡略統計資訊
     git log --oneline
     
 +   git checkout -b `branch name`  
+	> create a new branch and switch to it
     git checkout `branch name`
+    > Change the branch to the other one
 
 +   git branch  
+	> Show the branches
     git branch `branch name`  
     git branch -D `branch name`  
     git branch --delete `branch name`  
@@ -85,7 +108,9 @@
     git stash drop
 
 +   git config user.name  
+	> Check user name
     git config user.email
+    > Check user email
 
 +   git config --global user.name `user name`  
     git config --global user.email `user email`  
@@ -165,9 +190,15 @@ Using `UTF-8`,`Unicode Strings`
 
 + Shift - Enter
 	> Run selected cell and turn to next cell as the code mode
+
 + Ctrl - Enter
+	> Run selected cell
+
 + Double press "D"
+	> Delete selected cell
+
 + Shift - M
+	> Merge selected cells
 
 ----
 <a name="C#" />
