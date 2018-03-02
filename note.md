@@ -2,16 +2,16 @@
 # Contents
 
 + ### [GitHub](#GitHub)
-	+ #### [Command_Lines](#Command_Lines)
+	+ #### Command Lines
 	+ #### GitHub Pages
 
 + ### [Swift](#Swift)
 
-+ ### Python3
++ ### [Python3](#Python3)
 	+ #### 註解
 	+ #### 資料型態
 
-+ ### Jupyter Notebook
++ ### [Jupyter Notebook](#Jupyter Notebook)
 	+ #### Shortcuts
 
 + ### C#
@@ -36,8 +36,6 @@
 <a name="GitHub" />
 
 # GitHub
-
-<a name="Cammand_Lines" />
 
 ### Command Lines
 +   git
@@ -130,6 +128,8 @@
 
 # Swift
 
+<a name="Python3" />
+
 # Python3
 
 Using `UTF-8`,`Unicode Strings`
@@ -144,6 +144,8 @@ Using `UTF-8`,`Unicode Strings`
 	</code></pre>
 
 ### 資料型態
+
+<a name="Jupyter Notebook" />
 
 # Jupyter Notebook
 
