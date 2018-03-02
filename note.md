@@ -1,12 +1,30 @@
 # NOTE
 # Contents
 
+<pre><code>&lt;div class="footer"&gt;
+    &amp;copy; 2004 Foo Corporation
+&lt;/div&gt;
+</code></pre>
+
++ ### GitHub
+	+ #### Command Lines
+	+ #### GitHub Pages
+
 + ### Swift
+
 + ### Python3
+	+ #### 註解
+	+ #### 資料型態
+
 + ### Jupyter Notebook
+	+ #### Shortcuts
+
 + ### C#
+
 + ### Communication
+
 + ### SQL
+
 + ### Web
 	+ #### HTML
 	+ #### CSS
@@ -56,7 +74,7 @@
     git remote rm origin  
     git remote -v  
 
-+   git stash
++   git stash  
     git stash save  
     git stash apply  
     git stash drop
@@ -111,18 +129,6 @@ Using `UTF-8`,`Unicode Strings`
 ### 註解
 + 單行註解：#
 + 多行註解：
-
-<!DOCTYPE html>
-	<html>
-	   	<head>
-			<meta charset="utf-8">
-				<title>Hi, GitHub</title>
-		</head>
-		<body>
-			<h1>...</h1>
-		</body>
-	</html>
-
 
 ### 資料型態
 
