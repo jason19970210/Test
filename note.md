@@ -1,7 +1,7 @@
 # NOTE
 # Contents
 
-See the [Introduction](#introduction).
+See the [Swift](#Swift).
 
 + ### GitHub
 	+ #### Command Lines
