@@ -275,12 +275,12 @@ Using `UTF-8`,`Unicode Strings`
 
 <a name="URL" />
 
-  - URL
+-- URL
 	- With Text
 
 <a name="In-Page" />
 
-  - In-Page
+-- In-Page
 
 <a name="Highlight" />
 
