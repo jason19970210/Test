@@ -74,9 +74,9 @@
 + GitHub Pages will be PUBLIC
 
     ### Steps  
-	set project name to `username.github.io`
-    set up an empty REPO
-    add a HTML file name `index.html`
+	set project name to `username.github.io`  
+    set up an empty REPO  
+    add a HTML file name `index.html`  
 		```
 		<!DOCTYPE html>
 			<html>
