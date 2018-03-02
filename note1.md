@@ -67,10 +67,10 @@
 + Dont support PHP, ASP, " .htacess",FTP Server 
 + Can be UPLOADED by GIT ONLY
 + GitHub Pages will be PUBLIC  
-+ Steps
-> set project name to "username.github.io"  
-> set up an empty REPO  
-> add a HTML file name "index.html"  
+> Steps  
+> + set project name to "username.github.io"  
+> + set up an empty REPO  
+> + add a HTML file name "index.html"  
 >> <!DOCTYPE html>
 	<html>
 		<head>
