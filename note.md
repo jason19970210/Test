@@ -33,10 +33,11 @@
 + ### [Markdown](#Markdown)
 	+ #### [Quote](#Quote)
 	+ #### [Code](#Code)
+		- ##### In-Line
+		- ##### Highlight
 	+ #### [Link](#Link)
 		- ##### [URL](#URL)
 		- ##### [In-Page](#In-Page)
-	+ #### [Highlight](#Highlight)
 
 + ### [Terminal](#Terminal)
 
@@ -270,6 +271,12 @@ Using `UTF-8`,`Unicode Strings`
 <a name="Code" />
 
 + Code
+	<a name="In-Line">
+
+	+ In-Line
+
+
+	+ Highlight
 
 <a name="Link" />
 
@@ -279,10 +286,6 @@ Using `UTF-8`,`Unicode Strings`
 		- With Text  
 
 	+ In-Page
-
-<a name="Highlight" />
-
-+ Highlight
 
 ### Reference
 
