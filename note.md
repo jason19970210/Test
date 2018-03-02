@@ -274,13 +274,11 @@ Using `UTF-8`,`Unicode Strings`
 + Link
 
 <a name="URL" />
-
--- URL
-	- With Text
+	- URL
+		- With Text
 
 <a name="In-Page" />
-
--- In-Page
+	+ In-Page
 
 <a name="Highlight" />
 
@@ -314,23 +312,3 @@ Using `UTF-8`,`Unicode Strings`
 <a name="Hacker" />
 
 # Hacker
-
-
-```
-project
-│   README.md
-│   file001.txt    
-│
-└───folder1
-│   │   file011.txt
-│   │   file012.txt
-│   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
-│   
-└───folder2
-    │   file021.txt
-    │   file022.txt
-```
