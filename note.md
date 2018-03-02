@@ -32,22 +32,23 @@
     git push -f  
     git push -u origin master  
 
-+   git pull
++   git pull  
     pull = git fetch + git merge
     
-+   git add .
++   git add .  
     git add --all
     
-+   git log
-    git log -p -2
-    git log --stat
++   git log  
+    git log -p -2  
+    git log --stat  
     git log --oneline
     
-+   git checkout -b `branch name`
++   git checkout -b `branch name`  
     git checkout `branch name`
-+   git branch
+
++   git branch  
     git branch `branch name`  
-    git branch -D `branch name`
+    git branch -D `branch name`  
     git branch --delete `branch name`  
 > 
 + git remote
