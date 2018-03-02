@@ -316,6 +316,7 @@ Using `UTF-8`,`Unicode Strings`
 # Hacker
 
 
+.
 +-- _config.yml
 +-- _drafts
 |   +-- begin-with-the-crazy-ideas.textile
