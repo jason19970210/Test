@@ -284,14 +284,10 @@ Using `UTF-8`,`Unicode Strings`
 + Link
 	<a name="URL" />
 
-	- URL  
+	+ URL
+	<a name="In-Page" />
 
-<a name="With_Text">
-		- With Text 
-		 
-<a name="In-Page" />
-
-	- In-Page
+	+ In-Page
 
 ### Reference
 
