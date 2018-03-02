@@ -130,6 +130,7 @@
 
 # Swift
 
+----
 <a name="Python3" />
 
 # Python3
@@ -152,6 +153,7 @@ Using `UTF-8`,`Unicode Strings`
 
 ### 資料型態
 
+----
 <a name="Jupyter_Notebook" />
 
 # Jupyter Notebook
@@ -165,25 +167,29 @@ Using `UTF-8`,`Unicode Strings`
 + Double press "D"
 + Shift - M
 
-
+----
 <a name="C#" />
 
 # C#
 
+----
 <a name="Communication" />
 
 # Communication
 
 
+----
 <a name="SQL" />
 
 # SQL
 
 
+----
 <a name="Web" />
 
 # Web
 
+----
 <a name="HTTP" />
 
 ## - HTTP
@@ -204,14 +210,17 @@ Using `UTF-8`,`Unicode Strings`
 
 ## - JSON
 
+----
 <a name="Markdown" />
 
 # Markdown
 
+----
 <a name="Terminal" />
 
 # Terminal
 
+----
 <a name="Hacker" />
 
 # Hacker
