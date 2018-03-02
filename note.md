@@ -17,7 +17,7 @@
 # GitHub
 
 ### Command Lines
-+   git 
++   git
 +   git init
 +   git clone `https`
 +   git \s
@@ -25,12 +25,12 @@
 +   git commit -m "`commit`"
     git commit -am "`commit`"
   
-+   git push
-    git push origin master
-    git push origin `branch name`
-    git push --set-upstream origin `branch name`
-    git push -f
-    git push -u origin master
++   git push  
+    git push origin master  
+    git push origin `branch name`  
+    git push --set-upstream origin `branch name`  
+    git push -f  
+    git push -u origin master  
 
 +   git pull
     pull = git fetch + git merge
