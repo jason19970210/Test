@@ -70,14 +70,18 @@
   
 +   git push  
 	> Upload the file in Staging Area
+
     git push origin master  
     > 
     git push origin `branch name`  
+
     > 
     git push --set-upstream origin `branch name`  
+
     > 
     git push -f  
     > Force Push,  also as `$ git push --force`
+
     git push -u origin master  
     > 
 
@@ -180,6 +184,7 @@
 	- Right Click on `info.plist`
 	- Select `Open As` > `Source Code`
 	- Copy & Paste
+
 		```Swift
 		<key>NSAppTransportSecurity</key>
 		<dict>
@@ -194,14 +199,13 @@
 	- Select `App Transport Sercurity Settings`
 	- Click the arrow to make it down as a Dictionary
 	- Press `+` & Choose `Allow Arbitary Loads`
-	- Set the boolean from default NO to `YES`
+	- Set the boolean value from default NO to `YES`
 ----
 <a name="Python3" />
 
 # Python3
 
 Using `UTF-8`,`Unicode Strings`
-
 
 <a name="Comment" />
 
@@ -217,7 +221,15 @@ Using `UTF-8`,`Unicode Strings`
 <a name="Data_Type" />
 
 ### 資料型態
++ 標準資料型態：`Number`, `String`, `List`, `Tuple`(元組), `Sets`(集合), `Dictionary`
++ 檢視資料型態
+	```
+	print(type(a))
+	```
 
+	```
+	isinstance(a,int)
+	```
 ----
 <a name="Jupyter_Notebook" />
 
