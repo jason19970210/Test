@@ -19,26 +19,27 @@
 + ### [C#](#C#)
 
 + ### [Communication](#Communication)
+	+ #### [Internet](#Internet)
 	+ #### [Block Chain](#Block_Chain)
 
 + ### [Database & SQL](#Database_&_SQL)
+	+ #### [Database](#Database)
+	+ #### [SQL](#SQL)
 
 + ### [Web](#Web)
 	+ #### [HTML](#HTML)
+	+ #### [HTTP](#HTTP)
 	+ #### [CSS](#CSS)
 	+ #### [PHP](#PHP)
 	+ #### [JS](#JS)
 	+ #### [JSON](#JSON)
 
 + ### [Markdown](#Markdown)
+	+ #### [Font](#Font)
 	+ #### [Quote](#Quote)
 	+ #### [Code](#Code)
-		- ##### [In-Line](#In-Line)
-		- ##### [Highlight](#Highlight)
 	+ #### [Link](#Link)
-		- ##### [URL](#URL)
-			- ###### [With Text](#With_Text)
-		- ##### [In-Page](#In-Page)
+	+ #### [Picture](#Picture)
 
 + ### [Terminal](#Terminal)
 
@@ -118,7 +119,7 @@
     git stash apply  
     git stash drop
 
-+   git config user.name  
++   git config user.name
 	> Check user name
     git config user.email
     > Check user email
@@ -221,6 +222,10 @@ Using `UTF-8`,`Unicode Strings`
 
 # Communication
 
+<a name="Internet" />
+
+### Internet
+
 <a name="Block_Chain" />
 
 ### Block Chain
@@ -230,6 +235,14 @@ Using `UTF-8`,`Unicode Strings`
 <a name="Database_&_SQL" />
 
 # Database & SQL
+
+<a name="Database" />
+
+## Database
+
+<a name="SQL" />
+
+## SQL
 
 
 ----
@@ -242,6 +255,8 @@ Using `UTF-8`,`Unicode Strings`
 
 ## - HTTP
 
+<a name="HTML">
+
 <a name="PHP" />
 
 ## - PHP
@@ -250,7 +265,7 @@ Using `UTF-8`,`Unicode Strings`
 
 ## - CSS
 - Cascading Style Sheets (串接樣式表)  
--用來替HTML增加`Style` ex. Color, Font Size, Font Type...
+- 用來替HTML增加`Style` ex. Color, Font Size, Font Type...
 
 <a name="JS" />
 
@@ -265,17 +280,27 @@ Using `UTF-8`,`Unicode Strings`
 
 # Markdown
 
+<a name="Font" />
+
+## Font
+
 <a name="Quote" />
 
-+ Quote
+## Quote
 
 <a name="Code" />
 
-+ Code
+## Code
 
 <a name="Link" />
 
-+ Link
+## Link
+
+<a name="Picture">
+
+## Picture
+
+
 
 ### Reference
 
