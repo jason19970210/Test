@@ -225,7 +225,7 @@ Using `UTF-8`,`Unicode Strings`
 + 檢視資料型態
 	- print(type(a))
 	- isinstance(a,int)
-	
+
 	```
 	a = 111
 	print(type(a))
@@ -235,6 +235,13 @@ Using `UTF-8`,`Unicode Strings`
 	Line[1]: <class 'int'>
 	Line[2]: True
 	```
++ Number : `int`, `float`, `bool`, `complex`(複數)
+	+ 類別宣告
+		- int(x)
+		- float(x)
+		- complex(x)
+		- complex(x,y)
+		> 將 x 和 y 轉換到一個複數，時數部分為 x, 虛數部分為 y,  x 和 y 是數字表達式
 ----
 <a name="Jupyter_Notebook" />
 
