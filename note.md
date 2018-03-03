@@ -118,7 +118,7 @@
     git stash drop
 
 +   git config user.name
-	> Check user name
+	> Check user name <
     git config user.email
     > Check user email
 
