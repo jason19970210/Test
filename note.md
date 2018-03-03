@@ -6,6 +6,7 @@
 	+ #### [GitHub Pages](#GitHub_Pages)
 
 + ### [Swift](#Swift)
+	+ #### [Data Type](#Data_Type)
 	+ #### [UIWebView](#UIWebView)
 
 + ### [Python3](#Python3)
@@ -24,6 +25,7 @@
 + ### [C#](#C#)
 
 + ### [Communication](#Communication)
+	+ #### [Ethernet](#Ethernet)
 	+ #### [Internet](#Internet)
 	+ #### [Block Chain](#Block_Chain)
 
@@ -387,6 +389,10 @@ Using `UTF-8`,`Unicode Strings`
 <a name="Communication" />
 
 # Communication
+
+<a name="Ethernet" />
+
+## Ethernet
 
 <a name="Internet" />
 
