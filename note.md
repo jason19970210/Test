@@ -255,6 +255,10 @@ Using `UTF-8`,`Unicode Strings`
 				> 無條件捨去, 高斯
 			- log(x)
 				> 取對數值
+			- log10(x)
+				> 取以10為底的對數值
+			- sqrt(x)
+				> 取平方根
 
 
 
