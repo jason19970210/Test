@@ -298,6 +298,38 @@ Using `UTF-8`,`Unicode Strings`
 		"""这是一个段落，
 		可以由多行组成"""
 		```
+	+ 字符串格式化
+		```
+		print ("我叫 %s 今年 %d 岁!" % ('小明', 10))
+
+		Output:
+		我叫 小明 今年 10 岁!
+		```
+	+ Functions For String
+		+ capitalize()
+			> 將字符串的第一個字符轉換為大寫
+		+ isalnum()
+			> 如果字符串至少有一个字符并且所有字符都是字母或数字则返 回 True,否则返回 False
+		+ isalpha()
+			> 如果字符串至少有一个字符并且所有字符都是字母则返回 True, 否则返回 False
+		+ isdigit()
+			> 如果字符串只包含数字则返回 True 否则返回 False
+		+ islower()
+			> 如果字符串中包含至少一个区分大小写的字符，并且所有这些(区分大小写的)字符都是小写，则返回 True，否则返回 False
+		+ isnumeric()
+			> 如果字符串中只包含数字字符，则返回 True，否则返回 False
+		+ isspace()
+			> 如果字符串中只包含空白，则返回 True，否则返回 False
+		+ len(string)
+			> 返回字符串长度
+		+ lower()
+			> 转换字符串中所有大写字符为小写
+		+ lstrip()
+			> 截掉字符串左边的空格或指定字符
++ List
++ Tuple
++ Set
++ Dictionary
 
 ----
 <a name="Jupyter_Notebook" />
