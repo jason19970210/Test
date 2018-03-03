@@ -223,13 +223,9 @@ Using `UTF-8`,`Unicode Strings`
 ### 資料型態
 + 標準資料型態：`Number`, `String`, `List`, `Tuple`(元組), `Sets`(集合), `Dictionary`
 + 檢視資料型態
-	```
-	print(type(a))
-	```
-
-	```
-	isinstance(a,int)
-	```
+	- print(type(a))
+	- isinstance(a,int)
+	
 	```
 	a = 111
 	print(type(a))
