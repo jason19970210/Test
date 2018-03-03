@@ -50,22 +50,28 @@
 <a name="Command_Lines" />
 
 ### Command Lines
-+ git
-> Get help of git command
-+ git init
-> 
-+ git clone `https`
-> 
-+ git \s
-> get status
-+ git add `file name`
-+ git commit -m "`commit`"  
-  git commit -am "`commit`"
-> give description / Comment to the file  
-+ git push  
-> Upload the file in Staging Area
-  git push origin master  
-> 
++   git
+	> Get help of git command
+
++   git init
+	> 
+
++   git clone `https`
+	> 
+
++   git \s
+	> get status
+
++   git add `file name`
+
++   git commit -m "`commit`"  
+    git commit -am "`commit`"
+    > give description / Comment to the file
+  
++   git push  
+	> Upload the file in Staging Area
+    git push origin master  
+    > 
     git push origin `branch name`  
     > 
     git push --set-upstream origin `branch name`  
@@ -85,9 +91,9 @@
 +   git log  
 	> Show all the commits overtime  
     git log -p -2  
-    > 顯示每個更新之間差別的內容, 限制為只輸出最後兩個更新  
+    > 顯示每個更新之間差別的內容, 限制為只輸出最後兩個更新
     git log --stat  
-    > 檢視每個更新的簡略統計資訊  
+    > 檢視每個更新的簡略統計資訊
     git log --oneline
     
 +   git checkout -b `branch name`  
