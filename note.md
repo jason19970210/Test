@@ -89,20 +89,26 @@
     > add all changed file to Staging Area,  also as `$ git add --all`
     
 +   git log  
-	> Show all the commits overtime  
-    git log -p -2  
+	> Show all the commits overtime
+
+    git log -p -2
     > 顯示每個更新之間差別的內容, 限制為只輸出最後兩個更新
-    git log --stat  
+
+    git log --stat
     > 檢視每個更新的簡略統計資訊
+
     git log --oneline
+    > 
     
 +   git checkout -b `branch name`  
 	> create a new branch and switch to it
+
     git checkout `branch name`
     > Change the branch to the other one
 
 +   git branch  
 	> Show the branches
+
     git branch `branch name`  
     git branch -D `branch name`  
     git branch --delete `branch name`  
@@ -119,7 +125,7 @@
 
 +   git config user.name
 	> Check user name  
-	
+
     git config user.email
     > Check user email
 
