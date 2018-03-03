@@ -167,12 +167,12 @@
 # Swift
 
 ### UIWebView
-#### Make UIWebView support http://
+#### Make UIWebView support `http`
 
 + Method 1
-	+ Right Click on `info.plist`
-	+ Select `Open As` > `Source Code`
-	+ Copy & Paste
+	- Right Click on `info.plist`
+	- Select `Open As` > `Source Code`
+	- Copy & Paste
 		```Swift
 		<key>NSAppTransportSecurity</key>
 		<dict>
@@ -181,6 +181,13 @@
     	</dict>
 		```
 
++ Method 2
+	- Select `info.plist`
+	- Right Click & Choose `Add Row`
+	- Select `App Transport Sercurity Settings`
+	- Click the arrow to make it down as a Dictionary
+	- Press `+` & Choose `Allow Arbitary Loads`
+	- Set the boolean from default NO to `YES`
 ----
 <a name="Python3" />
 
