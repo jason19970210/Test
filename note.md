@@ -50,28 +50,22 @@
 <a name="Command_Lines" />
 
 ### Command Lines
-+   git
-	> Get help of git command
-
-+   git init
-	> 
-
-+   git clone `https`
-	> 
-
-+   git \s
-	> get status
-
-+   git add `file name`
-
-+   git commit -m "`commit`"  
-    git commit -am "`commit`"
-    > give description / Comment to the file
-  
-+   git push  
-	> Upload the file in Staging Area
-    git push origin master  
-    > 
++ git
+> Get help of git command
++ git init
+> 
++ git clone `https`
+> 
++ git \s
+> get status
++ git add `file name`
++ git commit -m "`commit`"  
+  git commit -am "`commit`"
+> give description / Comment to the file  
++ git push  
+> Upload the file in Staging Area
+  git push origin master  
+> 
     git push origin `branch name`  
     > 
     git push --set-upstream origin `branch name`  
