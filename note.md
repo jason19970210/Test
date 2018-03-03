@@ -242,6 +242,23 @@ Using `UTF-8`,`Unicode Strings`
 		- complex(x)
 		- complex(x,y)
 			> 將 x 和 y 轉換到一個複數，時數部分為 x, 虛數部分為 y,  x 和 y 是數字表達式
+
+	+ Functions For Number
+		+ Math
+			- abs(x)
+				> 取絕對值
+			- fabs(x)
+				> 取絕對值(float)
+			- ceil(x)
+				> 無條件進位
+			- floor(x)
+				> 無條件捨去, 高斯
+			- log(x)
+				> 取對數值
+
+
+
+
 ----
 <a name="Jupyter_Notebook" />
 
