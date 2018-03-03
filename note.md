@@ -241,7 +241,7 @@ Using `UTF-8`,`Unicode Strings`
 		- float(x)
 		- complex(x)
 		- complex(x,y)
-			> 將 x 和 y 轉換到一個複數，時數部分為 x, 虛數部分為 y,  x 和 y 是數字表達式
+			> 將 x 和 y 轉換到一個複數，實數部分為 x, 虛數部分為 y,  x 和 y 是數字表達式
 
 	+ Functions For Number
 		+ Math
@@ -259,8 +259,14 @@ Using `UTF-8`,`Unicode Strings`
 				> 取以10為底的對數值
 			- sqrt(x)
 				> 取平方根
-
-
+		+ Random
+			- choice(seq)
+				> 從序列的元素中隨機挑選一個元素
+				
+				```python
+				random.choice(range(10))
+				// 從 0～9 之間挑一個整數
+				```
 
 
 ----
