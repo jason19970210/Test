@@ -1,8 +1,6 @@
 # NOTE
 # Contents
 
-- [x] This is a complete item
-
 + ### [GitHub](#GitHub)
 	+ #### [Command Lines](#Command_Lines)
 	+ #### [GitHub Pages](#GitHub_Pages)
@@ -168,6 +166,21 @@
 
 # Swift
 
+### UIWebView
+#### Make UIWebView support http://
+
++ Method 1
+	+ Right Click on `info.plist`
+	+ Select `Open As` > `Source Code`
+	+ Copy & Paste
+		```Swift
+		<key>NSAppTransportSecurity</key>
+		<dict>
+    		<key>NSAllowsArbitraryLoads</key>
+    		<true/>
+    	</dict>
+		```
+
 ----
 <a name="Python3" />
 
@@ -224,11 +237,11 @@ Using `UTF-8`,`Unicode Strings`
 
 <a name="Internet" />
 
-### Internet
+## Internet
 
 <a name="Block_Chain" />
 
-### Block Chain
+## Block Chain
 
 
 ----
