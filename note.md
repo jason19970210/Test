@@ -212,11 +212,11 @@ Using `UTF-8`,`Unicode Strings`
 ### 註解
 + 單行註解：`# 註解`
 + 多行註解：
-	```
+	<pre><code>
 	```
 	註解 
 	```
-	```
+	</code></pre>
 
 <a name="Data_Type" />
 
