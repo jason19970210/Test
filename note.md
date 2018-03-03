@@ -283,6 +283,21 @@ Using `UTF-8`,`Unicode Strings`
 				>>> strs
 				'a432'
 				```
+		+ Trigonometric function (三角函數)
++ String
+	+ Word
+		```
+		word = ' 字符串 '
+		```
+	+ Sentence
+		```
+		" This is sentence. "
+		```
+	+ Paragraph
+		```
+		"""这是一个段落，
+		可以由多行组成"""
+		```
 
 ----
 <a name="Jupyter_Notebook" />
