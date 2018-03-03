@@ -230,6 +230,15 @@ Using `UTF-8`,`Unicode Strings`
 	```
 	isinstance(a,int)
 	```
+	```
+	a = 111
+	print(type(a))
+	isinstance(a,int)
+
+	Output:
+	Line[1]: <class 'int'>
+	Line[2]: True
+	```
 ----
 <a name="Jupyter_Notebook" />
 
