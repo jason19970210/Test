@@ -241,7 +241,7 @@ Using `UTF-8`,`Unicode Strings`
 		- float(x)
 		- complex(x)
 		- complex(x,y)
-		> 將 x 和 y 轉換到一個複數，時數部分為 x, 虛數部分為 y,  x 和 y 是數字表達式
+			> 將 x 和 y 轉換到一個複數，時數部分為 x, 虛數部分為 y,  x 和 y 是數字表達式
 ----
 <a name="Jupyter_Notebook" />
 
