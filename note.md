@@ -262,12 +262,27 @@ Using `UTF-8`,`Unicode Strings`
 		+ Random
 			- choice(seq)
 				> 從序列的元素中隨機挑選一個元素
-				
+
 				```python
 				random.choice(range(10))
 				// 從 0～9 之間挑一個整數
 				```
-
+			- random()
+				> 隨機生成一個實數, 介在[0,1)
+			- shuffle(lst)
+				> 將序列的所有元素隨機排序
+			- uniform(x,y)
+				> 隨機生成一個實數, 介在[x,y]
+			- random.randint(x,y)
+				> 隨機生成一個int整數, 介在[x,y]
+			- random.sample(sequence,length)
+				> 可以從指定的序列中，隨機的截取指定長度的片段，不修改原序列
+				```
+				>>> lst = random.sample('abcd1234',4)
+				>>> strs = ''.join(lst)
+				>>> strs
+				'a432'
+				```
 
 ----
 <a name="Jupyter_Notebook" />
