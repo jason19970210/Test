@@ -10,6 +10,12 @@
 + ### [Python3](#Python3)
 	+ #### [註解](#Comment)
 	+ #### [資料型態](#Data_Type)
+		+ #### [Number](#Number)
+		+ #### [String](#String)
+		+ #### [List](#List)
+		+ #### [Tuple](#Tuple)
+		+ #### [Set](#Set)
+		+ #### [Dictionary](#Dictionary)
 
 + ### [Jupyter Notebook](#Jupyter_Notebook)
 	+ #### [Shortcuts](#Shortcuts)
@@ -235,6 +241,8 @@ Using `UTF-8`,`Unicode Strings`
 	Line[1]: <class 'int'>
 	Line[2]: True
 	```
+<a name="Number" />
+
 + Number : `int`, `float`, `bool`, `complex`(複數)
 	+ 類別宣告
 		- int(x)
@@ -284,6 +292,9 @@ Using `UTF-8`,`Unicode Strings`
 				'a432'
 				```
 		+ Trigonometric function (三角函數)
+
+<a name="String" />
+
 + String
 	+ Word
 		```
@@ -326,9 +337,21 @@ Using `UTF-8`,`Unicode Strings`
 			> 转换字符串中所有大写字符为小写
 		+ lstrip()
 			> 截掉字符串左边的空格或指定字符
+
+<a name="List" />
+
 + List
+
+<a name="Tuple" />
+
 + Tuple
+
+<a name="Set" />
+
 + Set
+
+<a name="Dictionary" />
+
 + Dictionary
 
 ----
