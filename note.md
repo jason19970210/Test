@@ -387,6 +387,59 @@ Using `UTF-8`,`Unicode Strings`
 	dict_values(['runoob', 'www.runoob.com', 1])
 	```
 
++ #### 運算子
+	+ 算數邏輯
+		+ \+ - * /
+		+ % 取餘數
+		+ // 取商數
+		+ a ** b  a的b次方
+	+ 比較邏輯
+		+ `==` `!=` `>` `<` `>=` `<=`
+	+ 賦值邏輯
+		+ c = a + b
+			> 將a + b 的運算结果赋值為 c
+		+ c += a
+			> c = c + a
+		+ c -= a
+			> c = c - a
+		+ c *= a
+			> c = c * a
+		+ c /= a
+			> c = c / a
+		+ c %= a
+			> c = c % a
+		+ c //= a
+			> c = c // a
+		+ c **= a
+			> c = c ** a
+	+ 二進位邏輯
+		+ &  And Gate
+		+ |  Or Gate
+		+ ^  NOR Gate > 兩對應二進位相異時, 輸出1
+		+ ~  補數
+		+ >>n	右移n單位
+		+ <<n	左移n單位
+
+		```
+		a = 0011 1100
+		b = 0000 1101
+
+		a & b = 0000 1100
+		a | b = 0011 1101
+		a ^ b = 0011 0001
+		~a = 1100 0011
+		a >>2 = 1111 0000
+		a <<2 = 0000 1111
+		```
+	+ 邏輯
+		+ And
+		+ Or
+		+ NOT
+	+ 成員
+		+ in
+		+ not in
+
+
 ----
 <a name="Jupyter_Notebook" />
 
