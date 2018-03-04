@@ -413,12 +413,19 @@ Using `UTF-8`,`Unicode Strings`
 		+ c **= a
 			> c = c ** a
 	+ 二進位邏輯
-		+ &  And Gate
-		+ |  Or Gate
-		+ ^  NOR Gate > 兩對應二進位相異時, 輸出1
-		+ ~  補數
-		+ >>n	右移n單位
-		+ <<n	左移n單位
+		+ &
+			> And Gate
+		+ |
+			> Or Gate
+		+ ^
+			> NOR Gate  
+			> 兩對應二進位相異時, 輸出1
+		+ ~
+			> 補數
+		+ >>n
+			> 右移n單位
+		+ <<n
+			> 左移n單位
 
 		```
 		a = 0011 1100
