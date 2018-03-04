@@ -18,13 +18,14 @@
 		+ #### [Tuple](#Tuple)
 		+ #### [Set](#Set)
 		+ #### [Dictionary](#Dictionary)
+	+ #### [爬蟲](#)
 
 + ### [Jupyter Notebook](#Jupyter_Notebook)
 	+ #### [Shortcuts](#Shortcuts)
 
 + ### [C#](#C#)
 
-+ ### [Communication](#Communication)
++ ### [Network & Communication](#Network_&_Communication)
 	+ #### [Ethernet](#Ethernet)
 	+ #### [Internet](#Internet)
 	+ #### [Block Chain](#Block_Chain)
@@ -51,6 +52,8 @@
 + ### [Terminal](#Terminal)
 
 + ### [Hacker](#Hacker)
+
+
 
 <a name="GitHub" />
 
@@ -354,10 +357,35 @@ Using `UTF-8`,`Unicode Strings`
 <a name="Set" />
 
 + Set
+	無序, 不重複元素的序列
+	+ 創建空集合：set()
+
 
 <a name="Dictionary" />
 
 + Dictionary
+	+ 映射類型：key:value
+	```
+	dict = {}
+	dict['one'] = "1"
+	dict['2'] = "two"
+
+	tinydict = {'name':'runnob','code':1,'site':'www.runnob.com'}
+
+	print(dict['one'])
+	print(dict['2'])
+	print(tinydict)
+	print(tinydict.keys())
+	print(tinydict.values())
+	```
+
+	```
+	1
+	two
+	{'name': 'runoob', 'site': 'www.runoob.com', 'code': 1}
+	dict_keys(['name', 'site', 'code'])
+	dict_values(['runoob', 'www.runoob.com', 1])
+	```
 
 ----
 <a name="Jupyter_Notebook" />
@@ -386,9 +414,9 @@ Using `UTF-8`,`Unicode Strings`
 # C#
 
 ----
-<a name="Communication" />
+<a name="Network_&_Communication" />
 
-# Communication
+# Network & Communication
 
 <a name="Ethernet" />
 
