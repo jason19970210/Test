@@ -19,6 +19,7 @@
 		+ #### [Set](#Set)
 		+ #### [Dictionary](#Dictionary)
 			+ ##### [利用 value 反查 key](#value_key)
+			+ ##### [檢查dict中有無包含特定的key](#dict_key)
 	+ #### [爬蟲](#)
 
 + ### [Jupyter Notebook](#Jupyter_Notebook)
@@ -445,6 +446,8 @@ Using `UTF-8`,`Unicode Strings`
 	## Output
 	key = two
 	```
+	<a name='dict_key' />
+
 	+ 檢查dict中有無包含特定的key
 
 	```python
