@@ -456,7 +456,7 @@ Using `UTF-8`,`Unicode Strings`
 		+ There is another function for `input` in `Python2`
 
 		### Example
-			```
+			```python
 			a = input()
 			print('a= ',a)
 
@@ -506,6 +506,21 @@ Using `UTF-8`,`Unicode Strings`
 	else
 		do 3rd
 	```
++ ### For Loop Function
+	```python
+	for i in range(0,10):
+		print(i)
+
+
+	## Output
+	0
+	1
+	2
+	3
+	...
+	```
+	range(n) = range(0,n)
+	資料只取到`n-1`
 + ### Import
 	+ import `module`
 		> import whole module
