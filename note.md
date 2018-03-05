@@ -443,10 +443,9 @@ Using `UTF-8`,`Unicode Strings`
 	## Output
 	key = two
 	```
-
-	```
-
-	- - - -
+	+ 檢查dict中有無包含特定的key
+	
+	```python
 	# 檢查dict中有無包含特定的key
 	d = {'one':1, 'two':2, 'three':3, 'four':4, 'five':5}
 	print('one' in d)
