@@ -445,7 +445,18 @@ Using `UTF-8`,`Unicode Strings`
 	+ 成員
 		+ in
 		+ not in
-
++ ### Import
+	+ import `module`
+		> import whole module
+	+ from `module` import *
+		> import all functions from module
+	+ from `module` import `function`
+		> import the function from module
+	+ from `module` import `1st_function`, `2nd_function`...
+		> import few functions from module
++ ### Function
+	#### BeautifulSoup
+	
 
 ----
 <a name="Jupyter_Notebook" />
