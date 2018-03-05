@@ -15,6 +15,9 @@
 		+ #### [Number](#Number)
 			+ ##### [類別宣告](#類別宣告)
 			+ ##### [Functions For Number](#Functions_For_Number)
+				+ [Math](#Python_Math)
+				+ [Random](#Python_Random)
+				+ [Trigonometric Function](#Python_Trigonometric_Function)
 		+ #### [String](#String)
 		+ #### [List](#List)
 		+ #### [Tuple](#Tuple)
@@ -281,6 +284,9 @@ Using `UTF-8`,`Unicode Strings`
 	<a name='Functions_For_Number'>
 
 	+ Functions For Number
+
+		<a name='Python_Math' />
+
 		+ Math
 			- abs(x)
 				> 取絕對值
@@ -300,6 +306,9 @@ Using `UTF-8`,`Unicode Strings`
 				> a, b 的最大值
 			- min(a,b)
 				> a, b 的最小值
+
+		<a name='Python_Random' />
+
 		+ Random
 			- choice(seq)
 				> 從序列的元素中隨機挑選一個元素
@@ -324,7 +333,10 @@ Using `UTF-8`,`Unicode Strings`
 				>>> strs
 				'a432'
 				```
-		+ Trigonometric function (三角函數)
+
+		<a name='Python_Trigonometric_Function' />
+
+		+ Trigonometric Function (三角函數)
 
 <a name="String" />
 
