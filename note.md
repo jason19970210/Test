@@ -482,7 +482,7 @@ Using `UTF-8`,`Unicode Strings`
 	```
 	<a name='dict_key' />
 
-	###### + 檢查 Dict 中有無包含特定的 Key
+	##### + 檢查 Dict 中有無包含特定的 Key
 
 	```python
 	d = {'one':1, 'two':2, 'three':3, 'four':4, 'five':5}
