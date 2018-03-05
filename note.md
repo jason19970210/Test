@@ -220,7 +220,7 @@
 	- Select `Open As` > `Source Code`
 	- Copy & Paste
 
-		```Swift
+		```swift
 		<key>NSAppTransportSecurity</key>
 		<dict>
     		<key>NSAllowsArbitraryLoads</key>
@@ -673,6 +673,7 @@ Using `UTF-8`,`Unicode Strings`
 	2
 	3
 	...
+	9
 	```
 	range(n) = range(0,n)  
 	資料只取到`n-1`  
@@ -719,8 +720,50 @@ Using `UTF-8`,`Unicode Strings`
 	+ from `module` import `1st_function`, `2nd_function`...
 		> import few functions from module
 + ### Function
-	#### BeautifulSoup
-	+ 解析 HTML
+	+ ### 自定義函數
+		- 以 `def` 開頭 後接函數名稱和 `()`
+		- 任何傳入參數和自變量必須置於 `()` 中間 `()`可用於定義參數
+		- 函數的第一行可選擇性使用文檔字符 用於存放函數說明
+		- 函數內容以 `:` 起始 且需縮排
+		- `return[express(表達式)]` 結束函數並選擇性返回一個值給調用方
+		- 不帶表達式的return則返回 `NONE`
+
+			Example:
+			```python
+			def function_name(parameters):
+				"函數_文檔字符串"
+				function_suite
+				return[express]
+
+			- - - -
+			def printme(str):
+				"print 傳入的字符串到 console上 "
+				print(str)
+				return
+			```
+	+ ### 調用函數
+		```python
+		def printme(str):
+				"print 傳入的字符串到 console上 "
+				print(str)
+				return
+
+		# 調用函數
+		printme("調用自定義函數")
+		printme("再次調用函數")
+
+
+		## Output
+		調用自定義函數
+		再次調用函數
+
+
+
+		```
+
+	+ ### BeautifulSoup
+		+ 解析 HTML
+	+ ### 
 
 
 ----
@@ -796,6 +839,21 @@ Using `UTF-8`,`Unicode Strings`
 <a name="PHP" />
 
 ## - PHP
+
+#### 是一種創建動態交互站點的服務器端腳本語言
+Example
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+echo "Hello World!";
+?>
+
+</body>
+</html>
+```
 
 <a name="CSS" />
 
