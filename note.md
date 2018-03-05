@@ -10,16 +10,16 @@
 	+ #### [UIWebView](#UIWebView)
 
 + ### [Python3](#Python3)
-	+ #### [註解](#Comment)
-	+ #### [資料型態](#Python_Data_Type)
+	+ #### [Comment](#Comment)
+	+ #### [Data Type](#Python_Data_Type)
 		+ #### [Number](#Number)
 		+ #### [String](#String)
 		+ #### [List](#List)
 		+ #### [Tuple](#Tuple)
 		+ #### [Set](#Set)
 		+ #### [Dictionary](#Dictionary)
-			+ ##### [利用 value 反查 key](#value_key)
-			+ ##### [檢查dict中有無包含特定的key](#dict_key)
+			+ ##### [利用 Value 反查 Key](#value_key)
+			+ ##### [檢查 Dict 中有無包含特定的 Key](#dict_key)
 		+ #### [運算子](#cal)
 			+ ##### [算數邏輯](#calculate)
 			+ ##### [比較邏輯](#compare)
@@ -199,6 +199,10 @@
 
 # Swift
 
+<a name='Swift_Data_Type' />
+
+### 資料型態
+
 <a name="UIWebView" />
 
 ### UIWebView
@@ -233,7 +237,7 @@ Using `UTF-8`,`Unicode Strings`
 
 <a name="Comment" />
 
-### 註解
+### Comment
 + 單行註解：`# 註解`
 + 多行註解：
 	<pre><code>
@@ -244,7 +248,7 @@ Using `UTF-8`,`Unicode Strings`
 
 <a name="Python_Data_Type" />
 
-### 資料型態
+### Data Type
 + 標準資料型態：`Number`, `String`, `List`, `Tuple`(元組), `Sets`(集合), `Dictionary`
 + 檢視資料型態
 	- print(type(a))
@@ -440,7 +444,7 @@ Using `UTF-8`,`Unicode Strings`
 	```
 	<a name='value_key' />
 
-	+ 利用 value 反查 key
+	+ 利用 Value 反查 Key
 	```python
 	d = {'one':1, 'two':2, 'three':3, 'four':4, 'five':5}
 	target = 2
@@ -456,10 +460,9 @@ Using `UTF-8`,`Unicode Strings`
 	```
 	<a name='dict_key' />
 
-	+ 檢查dict中有無包含特定的key
+	+ 檢查 Dict 中有無包含特定的 Key
 
 	```python
-	# 檢查dict中有無包含特定的key
 	d = {'one':1, 'two':2, 'three':3, 'four':4, 'five':5}
 	print('one' in d)
 	print(1 in d)
@@ -496,7 +499,6 @@ Using `UTF-8`,`Unicode Strings`
 	1
 	2
 	NOT FOUND
-
 	```
 
 <a name='cal' />
