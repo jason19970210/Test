@@ -428,7 +428,58 @@ Using `UTF-8`,`Unicode Strings`
 
 	{'3':17, 'Lynn':19, '5578':201, 'hello_world':265, 'eat':24}
 
+	- - - -
+	# 利用 value 反查 key
+	d = {'one':1, 'two':2, 'three':3, 'four':4, 'five':5}
+	target = 2
+	for key in d:
+		if d[key] == traget:
+			print('key = ', key)
+			break
+		else:
+			print('404 NOT FOUND!')
+	
+	## Output
+	key = two
 
+	- - - -
+	# 檢查dict中有無包含特定的key
+	d = {'one':1, 'two':2, 'three':3, 'four':4, 'five':5}
+	print('one' in d)
+	print(1 in d)
+
+	## Output
+	True
+	False
+
+	- - - -
+	# 若想拿到一個由所有key組成的list、或一個由所有value組成的list，可以使用dict.keys()或是dict.values()。結合反查的方法，可以檢查一個特定的key或value在這個dict中存不存在。
+
+	d = {'one':1, 'two':2, 'three':3, 'four':4, 'five':5}
+	print(0 in d.keys())
+	print(1 in d.values())
+	print('one' in d.keys())
+	print(9 in d.values())
+
+	## Output
+	False
+	True
+	True
+	False
+
+	- - - -
+	# d.get(key, default_value): 是比較安全的作法，如果key不存在的話就會回傳 default_value (下面例子中的deafult_value就是’找不到耶’)。
+
+	d = {'one':1, 'two':2, 'three':3, 'four':4, 'five':5}
+	print(d['one'])
+	print(d.get('two','NOT FOUND'))
+	print(d.get(2,'NOT FOUND'))
+
+
+	## Output
+	1
+	2
+	NOT FOUND
 
 	```
 
