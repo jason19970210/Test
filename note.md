@@ -275,6 +275,10 @@ Using `UTF-8`,`Unicode Strings`
 				> 取以10為底的對數值
 			- sqrt(x)
 				> 取平方根
+			- max(a,b)
+				> a, b 的最大值
+			- min(a,b)
+				> a, b 的最小值
 		+ Random
 			- choice(seq)
 				> 從序列的元素中隨機挑選一個元素
@@ -446,6 +450,45 @@ Using `UTF-8`,`Unicode Strings`
 	+ 成員
 		+ in
 		+ not in
++ ### Input
+	+ For `Python3`
+		+ Use `raw_input` in `Python2`
+		+ There is another function for `input` in `Python2`
+
+		### Example
+			```
+			a = input()
+			print('a= ',a)
+
+			b = input('Your Name: ')
+			print('Your Name: ',b)
+
+
+			## Output
+			289
+			a = 289
+			Your Name: aaa
+			Your Name: aaa
+
+			- - - -
+
+			a = int(input('整數1 = '))
+			b = int(input('整數2 = '))
+			print(a+b)
+			print(a-b)
+			print(a*b)
+			print(a/b)
+
+
+			## Output
+			整數1 = 10
+			整數2 = 101
+			111
+			-91
+			1010
+			0.099.....
+			
+			```
 + ### Import
 	+ import `module`
 		> import whole module
