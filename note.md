@@ -18,6 +18,7 @@
 		+ #### [Tuple](#Tuple)
 		+ #### [Set](#Set)
 		+ #### [Dictionary](#Dictionary)
+			+ ##### [利用 value 反查 key](#value_key)
 	+ #### [爬蟲](#)
 
 + ### [Jupyter Notebook](#Jupyter_Notebook)
@@ -428,7 +429,8 @@ Using `UTF-8`,`Unicode Strings`
 
 	{'3':17, 'Lynn':19, '5578':201, 'hello_world':265, 'eat':24}
 	```
-	
+	<a name='value_key' />
+
 	+ 利用 value 反查 key
 	```python
 	d = {'one':1, 'two':2, 'three':3, 'four':4, 'five':5}
@@ -444,7 +446,7 @@ Using `UTF-8`,`Unicode Strings`
 	key = two
 	```
 	+ 檢查dict中有無包含特定的key
-	
+
 	```python
 	# 檢查dict中有無包含特定的key
 	d = {'one':1, 'two':2, 'three':3, 'four':4, 'five':5}
