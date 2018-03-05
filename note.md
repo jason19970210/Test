@@ -21,6 +21,12 @@
 			+ ##### [利用 value 反查 key](#value_key)
 			+ ##### [檢查dict中有無包含特定的key](#dict_key)
 		+ #### [運算子](#cal)
+			+ ##### [算數邏輯](#calculate)
+			+ ##### [比較邏輯](#compare)
+			+ ##### [賦值邏輯](#give_value)
+			+ ##### [二進位邏輯](#binary_logic)
+			+ ##### [邏輯閘](#logic_gate)
+			+ ##### [成員](#member)
 		+ #### [Input](#input)
 	+ #### [爬蟲](#)
 
@@ -496,13 +502,23 @@ Using `UTF-8`,`Unicode Strings`
 <a name='cal' />
 
 + #### 運算子
+
+	<a name='calculate' />
+
 	+ 算數邏輯
 		+ \+ - * /
 		+ % 取餘數
 		+ // 取商數
 		+ a ** b  a的b次方
+
+	<a name='compare' />
+
 	+ 比較邏輯
 		+ `==` `!=` `>` `<` `>=` `<=`
+
+	
+	<a name='=give_value' />
+
 	+ 賦值邏輯
 		+ c = a + b
 			> 將a + b 的運算结果赋值為 c
@@ -520,6 +536,9 @@ Using `UTF-8`,`Unicode Strings`
 			> c = c // a
 		+ c **= a
 			> c = c ** a
+
+	<a name='binary_logic' />
+
 	+ 二進位邏輯
 		+ &
 			> And Gate
@@ -547,10 +566,16 @@ Using `UTF-8`,`Unicode Strings`
 		a >>2 = 1111 0000
 		a <<2 = 0000 1111
 		```
-	+ 邏輯
+
+	<a name='logic_gate' />
+	
+	+ 邏輯閘
 		+ And
 		+ Or
 		+ NOT
+
+	<a name='member' />
+
 	+ 成員
 		+ in
 		+ not in
