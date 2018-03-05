@@ -427,7 +427,7 @@ Using `UTF-8`,`Unicode Strings`
 		+ <<n
 			> 左移n單位
 
-		Example
+		#### Example
 		```
 		a = 0011 1100
 		b = 0000 1101
