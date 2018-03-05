@@ -427,6 +427,7 @@ Using `UTF-8`,`Unicode Strings`
 		+ <<n
 			> 左移n單位
 
+		Example
 		```
 		a = 0011 1100
 		b = 0000 1101
@@ -456,7 +457,7 @@ Using `UTF-8`,`Unicode Strings`
 		> import few functions from module
 + ### Function
 	#### BeautifulSoup
-	
+
 
 ----
 <a name="Jupyter_Notebook" />
