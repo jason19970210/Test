@@ -376,21 +376,6 @@ Using `UTF-8`,`Unicode Strings`
 		> 刪除特定的 key-value pair
 	+ dict[key]=value
 		> 若key不存在 則增加這組pair  若key已存在 則更新這組pair
-	
-	+ 利用 value 反查 key
-	```
-	d = {'one':1, 'two':2, 'three':3, 'four':4, 'five':5}
-	target = 2
-	for key in d:
-		if d[key] == traget:
-			print('key = ', key)
-			break
-		else:
-			print('404 NOT FOUND!')
-	
-	## Output
-	key = two
-	```
 
 	```python
 	dict = {}
@@ -442,6 +427,24 @@ Using `UTF-8`,`Unicode Strings`
 	輸入整數：201
 
 	{'3':17, 'Lynn':19, '5578':201, 'hello_world':265, 'eat':24}
+	```
+	
+	+ 利用 value 反查 key
+	```python
+	d = {'one':1, 'two':2, 'three':3, 'four':4, 'five':5}
+	target = 2
+	for key in d:
+		if d[key] == traget:
+			print('key = ', key)
+			break
+		else:
+			print('404 NOT FOUND!')
+	
+	## Output
+	key = two
+	```
+
+	```
 
 	- - - -
 	# 檢查dict中有無包含特定的key
