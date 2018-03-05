@@ -645,10 +645,10 @@ Using `UTF-8`,`Unicode Strings`
 		0.099.....
 
 		```
-+ ### If-else Function
++ ### If-Else Function
 	```python
 	if 條件:
-		do 1st
+		do `1st`
 		do 2nd
 	else: #else 不接條件
 		do 3rd
