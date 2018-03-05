@@ -844,15 +844,15 @@ Using `UTF-8`,`Unicode Strings`
 Example
 ```html
 <!DOCTYPE html>
-<html>
-<body>
+	<html>
+		<body>
 
-<?php
-echo "Hello World!";
-?>
+			<?php
+				echo "Hello World!";
+			?>
 
-</body>
-</html>
+		</body>
+	</html>
 ```
 
 <a name="CSS" />
