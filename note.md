@@ -497,6 +497,8 @@ Using `UTF-8`,`Unicode Strings`
 	else: #else 不接條件
 		do 3rd
 
+
+
 	if 條件1:
 		do 1st
 	elif 條件2:
