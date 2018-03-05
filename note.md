@@ -19,6 +19,7 @@
 				+ [Random](#Python_Random)
 				+ [Trigonometric Function](#Python_Trigonometric_Function)
 		+ #### [String](#String)
+			+ #### [Functions For String](#Functions_For_String)
 		+ #### [List](#List)
 		+ #### [Tuple](#Tuple)
 		+ #### [Set](#Set)
@@ -32,7 +33,7 @@
 			+ ##### [二進位邏輯](#binary_logic)
 			+ ##### [邏輯閘](#logic_gate)
 			+ ##### [成員](#member)
-		+ #### [Input](#input)
+		+ #### [Input](#Python_input)
 	+ #### [爬蟲](#)
 
 + ### [Jupyter Notebook](#Jupyter_Notebook)
@@ -364,6 +365,9 @@ Using `UTF-8`,`Unicode Strings`
 		Output:
 		我叫 小明 今年 10 岁!
 		```
+
+	<a name='Functions_For_String' />
+
 	+ Functions For String
 		+ capitalize()
 			> 將字符串的第一個字符轉換為大寫
@@ -604,7 +608,7 @@ Using `UTF-8`,`Unicode Strings`
 		+ in
 		+ not in
 
-<a name='input' />
+<a name='Python_input' />
  
 + ### Input
 	+ For `Python3`
@@ -648,7 +652,7 @@ Using `UTF-8`,`Unicode Strings`
 + ### If-Else Function
 	```python
 	if 條件:
-		do `1st`
+		do 1st
 		do 2nd
 	else: #else 不接條件
 		do 3rd
