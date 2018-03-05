@@ -61,6 +61,7 @@
 	+ #### [Font](#Font)
 	+ #### [Quote](#Quote)
 	+ #### [Code](#Code)
+	+ #### [Table](#Table)
 	+ #### [Link](#Link)
 	+ #### [Picture](#Picture)
 
@@ -848,7 +849,7 @@ Example
 		<body>
 
 			<?php
-				echo "Hello World!";
+			echo "Hello World!";
 			?>
 
 		</body>
@@ -885,6 +886,10 @@ Example
 <a name="Code" />
 
 ## Code
+
+<a name="Table" />
+
+## Table
 
 <a name="Link" />
 
