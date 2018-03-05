@@ -397,7 +397,7 @@ Using `UTF-8`,`Unicode Strings`
 	dict_keys(['name', 'site', 'code'])
 	dict_values(['runoob', 'www.runoob.com', 1])
 
-	----
+	- - - -
 
 	table = {}
 	
