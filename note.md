@@ -13,6 +13,8 @@
 	+ #### [Comment](#Comment)
 	+ #### [Data Type](#Python_Data_Type)
 		+ #### [Number](#Number)
+			+ ##### [類別宣告](#類別宣告)
+			+ ##### [Functions For Number](#Functions_For_Number)
 		+ #### [String](#String)
 		+ #### [List](#List)
 		+ #### [Tuple](#Tuple)
@@ -201,7 +203,7 @@
 
 <a name='Swift_Data_Type' />
 
-### 資料型態
+### Data Type
 
 <a name="UIWebView" />
 
@@ -266,12 +268,17 @@ Using `UTF-8`,`Unicode Strings`
 <a name="Number" />
 
 + Number : `int`, `float`, `bool`, `complex`(複數)
+
+	<a name='類別宣告' />
+
 	+ 類別宣告
 		- int(x)
 		- float(x)
 		- complex(x)
 		- complex(x,y)
 			> 將 x 和 y 轉換到一個複數，實數部分為 x, 虛數部分為 y,  x 和 y 是數字表達式
+
+	<a name='Functions_For_Number'>
 
 	+ Functions For Number
 		+ Math
