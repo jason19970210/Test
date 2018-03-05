@@ -20,6 +20,8 @@
 		+ #### [Dictionary](#Dictionary)
 			+ ##### [利用 value 反查 key](#value_key)
 			+ ##### [檢查dict中有無包含特定的key](#dict_key)
+		+ #### [運算子](#cal)
+		+ #### [Input](#input)
 	+ #### [爬蟲](#)
 
 + ### [Jupyter Notebook](#Jupyter_Notebook)
@@ -491,6 +493,8 @@ Using `UTF-8`,`Unicode Strings`
 
 	```
 
+<a name='cal' />
+
 + #### 運算子
 	+ 算數邏輯
 		+ \+ - * /
@@ -550,6 +554,9 @@ Using `UTF-8`,`Unicode Strings`
 	+ 成員
 		+ in
 		+ not in
+
+<a name='input' />
+ 
 + ### Input
 	+ For `Python3`
 		+ Use `raw_input` in `Python2`
