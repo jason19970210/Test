@@ -457,6 +457,7 @@ Using `UTF-8`,`Unicode Strings`
 		> import few functions from module
 + ### Function
 	#### BeautifulSoup
+	+ 解析 HTML
 
 
 ----
