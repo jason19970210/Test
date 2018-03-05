@@ -354,6 +354,7 @@ Using `UTF-8`,`Unicode Strings`
 
 + List
 
+
 <a name="Tuple" />
 
 + Tuple
@@ -368,8 +369,15 @@ Using `UTF-8`,`Unicode Strings`
 <a name="Dictionary" />
 
 + Dictionary
-	+ 映射類型：key:value
-	```
+	+ 映射類型：key:value, 鍵值:變數
+	+ dict = {}
+		> 建立空的dict
+	+ del dict[key]
+		> 刪除特定的 key-value pair
+	+ dict[key]=value
+		> 若key不存在 則增加這組pair  若key已存在 則更新這組pair
+
+	```python
 	dict = {}
 	dict['one'] = "1"
 	dict['2'] = "two"
@@ -381,14 +389,47 @@ Using `UTF-8`,`Unicode Strings`
 	print(tinydict)
 	print(tinydict.keys())
 	print(tinydict.values())
-	```
 
-	```
+	## Output
 	1
 	two
 	{'name': 'runoob', 'site': 'www.runoob.com', 'code': 1}
 	dict_keys(['name', 'site', 'code'])
 	dict_values(['runoob', 'www.runoob.com', 1])
+
+
+
+	table = {}
+	
+	for inputTimes in range(0,5)
+		k = input('輸入字串：')
+		v = int(input('輸入整數：'))
+		
+		table[k] = v
+		print(end='\n')
+	print(table)
+	
+
+	## Output
+	輸入字串：eat
+	輸入整數：24
+
+	輸入字串：3
+	輸入整數：17
+
+	輸入字串：Lynn
+	輸入整數：19
+
+	輸入字串：hello_world
+	輸入整數：265
+
+	輸入字串：5578
+	輸入整數：201
+
+	{'3':17, 'Lynn':19, '5578':201, 'hello_world':265, 'eat':24}
+
+
+	
 	```
 
 + #### 運算子
