@@ -6,12 +6,12 @@
 	+ #### [GitHub Pages](#GitHub_Pages)
 
 + ### [Swift](#Swift)
-	+ #### [Data Type](#Data_Type)
+	+ #### [Data Type](#Swift_Data_Type)
 	+ #### [UIWebView](#UIWebView)
 
 + ### [Python3](#Python3)
 	+ #### [註解](#Comment)
-	+ #### [資料型態](#Data_Type)
+	+ #### [資料型態](#Python_Data_Type)
 		+ #### [Number](#Number)
 		+ #### [String](#String)
 		+ #### [List](#List)
@@ -242,7 +242,7 @@ Using `UTF-8`,`Unicode Strings`
 	```
 	</code></pre>
 
-<a name="Data_Type" />
+<a name="Python_Data_Type" />
 
 ### 資料型態
 + 標準資料型態：`Number`, `String`, `List`, `Tuple`(元組), `Sets`(集合), `Dictionary`
