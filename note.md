@@ -612,39 +612,39 @@ Using `UTF-8`,`Unicode Strings`
 		+ There is another function for `input` in `Python2`
 
 		### Example
-			```python
-			a = input()
-			print('a= ',a)
+		```python
+		a = input()
+		print('a= ',a)
 
-			b = input('Your Name: ')
-			print('Your Name: ',b)
-
-
-			## Output
-			289
-			a = 289
-			Your Name: aaa
-			Your Name: aaa
-
-			- - - -
-
-			a = int(input('整數1 = '))
-			b = int(input('整數2 = '))
-			print(a+b)
-			print(a-b)
-			print(a*b)
-			print(a/b)
+		b = input('Your Name: ')
+		print('Your Name: ',b)
 
 
-			## Output
-			整數1 = 10
-			整數2 = 101
-			111
-			-91
-			1010
-			0.099.....
+		## Output
+		289
+		a = 289
+		Your Name: aaa
+		Your Name: aaa
 
-			```
+		- - - -
+
+		a = int(input('整數1 = '))
+		b = int(input('整數2 = '))
+		print(a+b)
+		print(a-b)
+		print(a*b)
+		print(a/b)
+
+
+		## Output
+		整數1 = 10
+		整數2 = 101
+		111
+		-91
+		1010
+		0.099.....
+
+		```
 + ### If-else Function
 	```python
 	if 條件:
