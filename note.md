@@ -487,8 +487,23 @@ Using `UTF-8`,`Unicode Strings`
 			-91
 			1010
 			0.099.....
-			
+
 			```
++ ### If-else Function
+	```python
+	if 條件:
+		do 1st
+		do 2nd
+	else: #else 不接條件
+		do 3rd
+
+	if 條件1:
+		do 1st
+	elif 條件2:
+		do 2nd
+	else
+		do 3rd
+	```
 + ### Import
 	+ import `module`
 		> import whole module
