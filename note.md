@@ -519,8 +519,41 @@ Using `UTF-8`,`Unicode Strings`
 	3
 	...
 	```
-	range(n) = range(0,n)
-	資料只取到`n-1`
+	range(n) = range(0,n)  
+	資料只取到`n-1`  
+	range 結構: range(起點,終點,間距)
+
+	```python
+	for i in range(1,10):
+		for j in range(1,10):
+			print(i*j,end='')
+		print(end='\n')
+	
+	# end=' '  不希望print出來的結果換行且要有空格
+	# end='\n'  若要再換行可使用end='\n'
+
+	## Output
+	99 乘法表
+
+
+	for i in range(1,10,2):
+		print(i)
+
+	## Output
+	1
+	3
+	5
+	7
+	9
+
+	for i in range(10,1,-3):
+		print(i)
+
+	## Output
+	10
+	7
+	4
+	```
 + ### Import
 	+ import `module`
 		> import whole module
