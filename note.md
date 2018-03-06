@@ -34,6 +34,9 @@
 			+ ##### [邏輯閘](#logic_gate)
 			+ ##### [成員](#member)
 		+ #### [Input](#Python_input)
+		+ #### [If-Else Function](#Python_If_Else)
+		+ #### [For Loop Function](#Python_Loop_Function)
+		+ #### [Import](#Python_Import)
 	+ #### [爬蟲](#)
 
 + ### [Jupyter Notebook](#Jupyter_Notebook)
@@ -649,6 +652,9 @@ Using `UTF-8`,`Unicode Strings`
 		0.099.....
 
 		```
+	
+<a name='Python_If_Else' />
+
 + ### If-Else Function
 	```python
 	if 條件:
@@ -666,6 +672,9 @@ Using `UTF-8`,`Unicode Strings`
 	else
 		do 3rd
 	```
+
+<a name='Python_Loop_Function' />
+
 + ### For Loop Function
 	```python
 	for i in range(0,10):
@@ -715,6 +724,9 @@ Using `UTF-8`,`Unicode Strings`
 	7
 	4
 	```
+
+<a name='Python_Import' />
+
 + ### Import
 	+ import `module`
 		> import whole module
@@ -724,6 +736,9 @@ Using `UTF-8`,`Unicode Strings`
 		> import the function from module
 	+ from `module` import `1st_function`, `2nd_function`...
 		> import few functions from module
+
+<a name='Python_Function' />
+
 + ### Function
 	+ ### 自定義函數
 		- 以 `def` 開頭 後接函數名稱和 `()`
@@ -903,6 +918,15 @@ Example
 
 ## Picture
 
+### Steps
+1. New a Repo and it will be like a server to save photos
+2. Just use `git clone http` ... `git push` to upload the photos
+3. Go to Repo and click download in the photo
+4. Copy the path
+5. The format will be like this
+	```markdown
+	![1](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/1.png)
+	```
 
 
 ### Reference
