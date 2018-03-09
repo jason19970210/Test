@@ -869,6 +869,11 @@ If the web shows fail to connect with the localhost,
 #### Stop Apache
 > Windows >> Program >> AppServ >> Control Server by Service >> `Apache Stop`
 
+<a name="Start_phpMyAdmin">
+
+### Start phpMyAdmin
+
+
 
 
 ----
