@@ -52,6 +52,8 @@
 + ### [Database & SQL](#Database_&_SQL)
 	+ #### [Database](#Database)
 	+ #### [SQL](#SQL)
+		+ #### [AppServ](#Appserv)
+			+ ####[Install](#Appserv_Install)
 
 + ### [Web](#Web)
 	+ #### [HTML](#HTML)
@@ -842,6 +844,31 @@ Using `UTF-8`,`Unicode Strings`
 <a name="SQL" />
 
 ## SQL
+
+<a name="Appserv" />
+
+### AppServ
+
+<a name="Appserv_Install" />
+
+#### Install
+> Windows
+`AppServ`官網 點擊 [AppServ v2.5.9 & 2.4.9 with Zend Optimizer AddOns Released !](http://www.appservnetwork.com/modules.php?name=News&file=article&sid=38)
+The Download will be automatic
+
+When Installing, following the steps of the wizard.  
+Type "localhost" & your email address, let the Apache HTTP Port as 80 as default  
+Enter Root Password and confirm again, The `Character Sets and Collations` should be the option `UTF-8 Unicode`
+Then the install will be finish.
+
+#### Starting Apache
+Using the broswer and point to `http://localhost/`
+If the web shows fail to connect with the localhost,
+> Windows >> Program >> AppServ >> Control Server by Service >> `Apache Start`
+
+#### Stop Apache
+> Windows >> Program >> AppServ >> Control Server by Service >> `Apache Stop`
+
 
 
 ----
