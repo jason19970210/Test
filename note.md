@@ -872,6 +872,11 @@ If the web shows fail to connect with the localhost,
 <a name="Start_phpMyAdmin">
 
 ### Start phpMyAdmin
++ Ativate Apache and go to http://localhost/phpmyadmin/
+> User: `root`
+> Password: `0800080128`
+
+#### Create Database in phpMyAdmin
 
 
 
