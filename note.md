@@ -854,16 +854,15 @@ Using `UTF-8`,`Unicode Strings`
 #### Install
 > Windows  
 `AppServ`官網 點擊 [AppServ v2.5.9 & 2.4.9 with Zend Optimizer AddOns Released !](http://www.appservnetwork.com/modules.php?name=News&file=article&sid=38)
-The Download will be automatic
 
-When Installing, following the steps of the wizard.  
-Type "localhost" & your email address, let the Apache HTTP Port as 80 as default  
-Enter Root Password and confirm again, The `Character Sets and Collations` should be the option `UTF-8 Unicode`
-Then the install will be finish.
++ When Installing, following the steps of the wizard.  
++ Type "localhost" & your email address, let the Apache HTTP Port as 80 as default  
++ Enter Root Password and confirm again, The `Character Sets and Collations` should be the option `UTF-8 Unicode`
++ Then the install will be finish.
 
 #### Starting Apache
-Using the broswer and point to `http://localhost/`  
-If the web shows fail to connect with the localhost,
++ Using the broswer and point to `http://localhost/`  
++ If the web shows fail to connect with the localhost,
 > Windows >> Program >> AppServ >> Control Server by Service >> `Apache Start`
 
 #### Stop Apache
@@ -877,9 +876,13 @@ If the web shows fail to connect with the localhost,
 > Password: `0800080128`
 
 #### Create Database in phpMyAdmin
-
-
-
++ Type the name of the database, select the second colume to `utf-8_unicode_ci`
++ You will see there is some SQL Command
+```SQL
+CREATE DATABASE `(Your_database_name)`DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+```
++ Then we need to create a table in this database
++ Type the name of the table, and type how many columes we need in this table
 
 ----
 <a name="Web" />
