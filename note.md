@@ -852,7 +852,7 @@ Using `UTF-8`,`Unicode Strings`
 <a name="Appserv_Install" />
 
 #### Install
-> Windows
+> Windows  
 `AppServ`官網 點擊 [AppServ v2.5.9 & 2.4.9 with Zend Optimizer AddOns Released !](http://www.appservnetwork.com/modules.php?name=News&file=article&sid=38)
 The Download will be automatic
 
@@ -862,7 +862,7 @@ Enter Root Password and confirm again, The `Character Sets and Collations` shoul
 Then the install will be finish.
 
 #### Starting Apache
-Using the broswer and point to `http://localhost/`
+Using the broswer and point to `http://localhost/`  
 If the web shows fail to connect with the localhost,
 > Windows >> Program >> AppServ >> Control Server by Service >> `Apache Start`
 
@@ -873,7 +873,7 @@ If the web shows fail to connect with the localhost,
 
 ### Start phpMyAdmin
 + Ativate Apache and go to http://localhost/phpmyadmin/
-> User: `root`
+> User: `root`  
 > Password: `0800080128`
 
 #### Create Database in phpMyAdmin
