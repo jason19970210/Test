@@ -54,6 +54,10 @@
 	+ #### [SQL](#SQL)
 		+ #### [AppServ](#Appserv)
 			+ #### [Install](#Appserv_Install)
+		+ #### [Create](#SQL_Create)
+			+ #### [Create Database](#SQL_Create_Database)
+			+ #### [Create Table](#SQL_Create_Table)
+
 
 + ### [Web](#Web)
 	+ #### [HTML](#HTML)
@@ -883,6 +887,26 @@ CREATE DATABASE `(Your_database_name)`DEFAULT CHARACTER SET utf8 COLLATE utf8_un
 ```
 + Then we need to create a table in this database
 + Type the name of the table, and type how many columes we need in this table
+
+<a name="SQL_Create" />
+
+## Create
+
+<a name="SQL_Create_Database">
+
+### Create Database
+```sql
+CREATE DATABASE `\`Database_name\`` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+```
+
+註：COLLATE 語系校正
+
+<a name="SQL_Create_Table">
+
+### Create Table
+```sql
+CREATE TABLE 
+```
 
 ----
 <a name="Web" />
