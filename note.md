@@ -848,6 +848,8 @@ Using `UTF-8`,`Unicode Strings`
 <a name="SQL" />
 
 ## SQL
+SQL , Structured Query Language  
+不同 `資料庫管理系統` 在執行資料庫工作時 所使用的語言
 
 <a name="Appserv" />
 
@@ -896,16 +898,19 @@ CREATE DATABASE `(Your_database_name)`DEFAULT CHARACTER SET utf8 COLLATE utf8_un
 
 ### Create Database
 ```sql
-CREATE DATABASE `\`Database_name\`` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+CREATE DATABASE `Database_Name` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 ```
 
-註：COLLATE 語系校正
+註：`COLLATE` 語系校正
 
 <a name="SQL_Create_Table">
 
 ### Create Table
 ```sql
-CREATE TABLE 
+CREATE TABLE Table_Name (
+	1st_Column 1st_Column_Data_Type
+	2nd_Column 1st_Column_Data_Type
+)
 ```
 
 ----
