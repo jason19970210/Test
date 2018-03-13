@@ -44,6 +44,8 @@
 
 + ### [C#](#C#)
 
++ ### [Machine Learning](#Machine_Learning)
+
 + ### [Network & Communication](#Network_&_Communication)
 	+ #### [Ethernet](#Ethernet)
 	+ #### [Internet](#Internet)
@@ -817,6 +819,39 @@ Using `UTF-8`,`Unicode Strings`
 <a name="C#" />
 
 # C#
+
+
+
+----
+
+<a name="Machine_Learning">
+
+# Machine Learning
+
+## Install Tensorflow
+
+### MacOS
+
+#### Use `Virtualenv`
+- Recommened
+1. Start a Terminal ( shell )
+2. install `pip` and Virtualenv
+```shell
+$ sudo easy_install pip
+$ install --upgrade virtualenv
+```
+3. Create a Virtualenv environment
+```
+$ virtualenv --system-site-packages targetDirectory # for Python 2.7
+$ virtualenv --system-site-packages -p python3 targetDirectory # for Python 3.n
+```
+#### Use `native pip`
+#### Use `Docker`
+#### Use `Conda`
+
+### Ubuntu
+### Windwos
+### From Source
 
 ----
 <a name="Network_&_Communication" />
