@@ -45,6 +45,9 @@
 + ### [C#](#C#)
 
 + ### [Machine Learning](#Machine_Learning)
+	+ #### [Install](#Tensorflow_Install)
+		+ #### [MacOS](#Tensorflow_Install_MacOS)
+		+ #### [Ubuntu](#Tensorflow_Install_Ubuntu)
 
 + ### [Network & Communication](#Network_&_Communication)
 	+ #### [Ethernet](#Ethernet)
@@ -56,6 +59,8 @@
 	+ #### [SQL](#SQL)
 		+ #### [AppServ](#Appserv)
 			+ #### [Install](#Appserv_Install)
+		+ #### [XAMPP](#XAMPP)
+			+ #### [Install](#XAMPP_Install)
 		+ #### [Create](#SQL_Create)
 			+ #### [Create Database](#SQL_Create_Database)
 			+ #### [Create Table](#SQL_Create_Table)
@@ -828,7 +833,11 @@ Using `UTF-8`,`Unicode Strings`
 
 # Machine Learning
 
+<a name="Tensorflow_Install" />
+
 ## Install Tensorflow
+
+<a name="Tensorflow_Install_MacOS">
 
 ### MacOS
 
@@ -845,9 +854,49 @@ $ install --upgrade virtualenv
 $ virtualenv --system-site-packages targetDirectory # for Python 2.7
 $ virtualenv --system-site-packages -p python3 targetDirectory # for Python 3.n
 ```
+Note: where targetDirectory identifies the top of the Virtualenv tree. Our instructions assume that targetDirectory is ~/tensorflow, but you may choose any directory.
+
+4. Activate Virtualenv environment
+```
+$ cd targetDirectory
+$ source ./bin/activate      # If using bash, sh, ksh, or zsh
+$ source ./bin/activate.csh  # If using csh or tcsh 
+```
+
+The preceding `source` command should change your prompt to the following:
+```
+(targetDirectory)$ 
+```
+
+5. Ensure pip ≥8.1 is installed
+```
+(targetDirectory)$ easy_install -U pip
+```
+
+6. Issue one of the following commands to install TensorFlow and all the packages that TensorFlow requires into the active Virtualenv environment
+```
+(targetDirectory)$ pip install --upgrade tensorflow      # for Python 2.7
+ (targetDirectory)$ pip3 install --upgrade tensorflow     # for Python 3.n
+```
+
+7. Optional.  
+If Step 6 failed, install TensorFlow in the active Virtualenv environment by issuing a command
+```
+pip install --upgrade tfBinaryURL   # Python 2.7
+ $ pip3 install --upgrade tfBinaryURL  # Python 3.n
+```
+
+where tfBinaryURL identifies the URL of the TensorFlow Python package. The appropriate value of tfBinaryURL depends on the operating system and Python version. Find the appropriate value for tfBinaryURL for your system [here](https://www.tensorflow.org/install/install_mac#the_url_of_the_tensorflow_python_package). For example, if you are installing TensorFlow for macOS, Python 2.7, the command to install TensorFlow in the active Virtualenv is as follows
+```
+$ pip3 install --upgrade \
+ https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.6.0-py3-none-any.whl
+```
+
 #### Use `native pip`
 #### Use `Docker`
 #### Use `Conda`
+
+<a name="Tensorflow_Install_Ubuntu" />
 
 ### Ubuntu
 ### Windwos
@@ -908,6 +957,68 @@ SQL , Structured Query Language
 
 #### Stop Apache
 > Windows >> Program >> AppServ >> Control Server by Service >> `Apache Stop`
+
+<a name="XAMPP" />
+
+### XAMPP
+
+<a name="XAMPP_Install" />
+
+#### Install
+> MacOS
+[`XAMPP` Website](https://www.apachefriends.org/zh_tw/download.html) choose the OS-Version  
+Here I choose `XAMPP 7.2.2 / PHP 7.2.2`  
++ Open the `manager` run the three services
++ If the `Apache Server` cannot be runing, type the command line in `Terminal`
+```shell
+sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist
+```
+
+> Disable OSX's built-in Apache server
+
+reference from [here](https://superuser.com/questions/908111/xampp-wont-start-apache-on-mac-os-x-10-10-3-yosemite)
+
++ Now we need to change the default password  
+1. Go to http://localhost/dashboard/ in Safari
+2. Choose `HOW-TO Guides` then select `Reset the MySQL/MariaDB Root Password`, it will show you how to change the password.
+3. Or you can open a terminal
+```shell
+$ /Applications/XAMPP/bin/mysqladmin --user=root password "NEW_PASSWORD"
+```
+
+
+##### Error
+```
+New XAMPP security concept:
+
+Access to the requested directory is only available from the local network.
+
+This setting can be configured in the file "httpd-xampp.conf".
+```
+
+
+##### Under Mac
+1. sudo gedit /opt/lampp/etc/extra/httpd-xampp.conf
+2. As below: Search "phpmyadmin"
+```
+<Directory "/opt/lampp/phpmyadmin">
+    AllowOverride AuthConfig
+    Allow from all
+    Require all granted
+</Directory>
+```
+
+##### Under Windows
+1. Search "httpd-xampp.conf", it should be under C://xampp/
+2. Find "phpmyadmin"
+3. As below: 
+```
+<Directory "/opt/lampp/phpmyadmin">
+    AllowOverride AuthConfig
+    Allow from all
+    Require all granted
+</Directory>
+```
 
 <a name="Start_phpMyAdmin">
 
@@ -1056,6 +1167,12 @@ Example
 + nslookup - xx.xx.xx.xx
 + pip3 install matplotlib
 + ps -ax
++ sudo su -
+	> set authority to `root`
+
++ apachectl start
+	> Start Apache
++ 
 
 ----
 <a name="Hacker" />
