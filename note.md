@@ -77,6 +77,7 @@
 + ### [Markdown](#Markdown)
 	+ #### [Font](#Font)
 	+ #### [Quote](#Quote)
+	+ #### [Subscript & Superscript (上標 & 下標)](#Subscript&Superscript)
 	+ #### [Code](#Code)
 	+ #### [Table](#Table)
 	+ #### [Link](#Link)
@@ -1116,6 +1117,13 @@ Example
 <a name="Quote" />
 
 ## Quote
+
+<a name="Subscript&Superscript" />
+
+## Subscript & Superscript (上標 & 下標)
+
+- 上標 Superscript : `<sup> </sup>`
+- 下標 Subscript : `<sub> </sub>`
 
 <a name="Code" />
 
