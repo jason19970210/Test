@@ -3,6 +3,7 @@
 
 + ### [GitHub](#GitHub)
 	+ #### [Command Lines](#Command_Lines)
+		+ ##### [Large File Support](#github_lfs)
 	+ #### [GitHub Pages](#GitHub_Pages)
 
 + ### [Swift](#Swift)
@@ -183,6 +184,23 @@
 
 +   git config --global user.name `user name`  
     git config --global user.email `user email`  
+
+<a name="github_lfs" />
+
+### Large File Support
+
+- Installation
+	- Web [Download Page](https://git-lfs.github.com)
+	- Homebrew : `$ brew install git-lfs`
+- Steps
+	1. `$ git lfs install`
+	2. Select the file types you'd like Git LFS to manage (or directly edit your .gitattributes). You can configure additional file extensions at anytime.
+		> `git lfs track "*.psd"`
+	3. Make sure .gitattributes is tracked
+		> `git add .gitattributes`
+	4. - `git add *.psd`
+	- `git comit -m ""`
+	- `git push origin master`
 
 <a name="GitHub_Pages" />
 
