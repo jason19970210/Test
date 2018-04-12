@@ -1005,6 +1005,12 @@ reference from [here](https://superuser.com/questions/908111/xampp-wont-start-ap
 $ /Applications/XAMPP/bin/mysqladmin --user=root password "NEW_PASSWORD"
 ```
 
+### 語法
+- SELECT "欄位" FROM "表格名";
+- SELECT DISTINCT "欄位"  
+	FROM "表格名";
+- 
+
 
 ##### Error
 ```
