@@ -83,6 +83,7 @@
 	+ #### [Table](#Table)
 	+ #### [Link](#Link)
 	+ #### [Picture](#Picture)
+	+ #### [Highlight Text in diff](#diff_highlight)
 
 + ### [Terminal](#Terminal)
 
@@ -1174,6 +1175,9 @@ Example
 	```markdown
 	![1](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/1.png)
 	```
+
+<a name = "diff_highlight">
+
 ## Highlight Text in diff
 ```
 \```diff
