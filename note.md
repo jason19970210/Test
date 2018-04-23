@@ -82,6 +82,8 @@
 	+ #### [Code](#Code)
 	+ #### [Table](#Table)
 	+ #### [Link](#Link)
+		+ #### [With Title](#link_with_title)
+		+ #### [Without Title](#link_without_title)
 	+ #### [Picture](#Picture)
 	+ #### [Highlight Text in diff](#diff_highlight)
 
@@ -1161,6 +1163,15 @@ Example
 <a name="Link" />
 
 ## Link
+
+<a name ="link_with_title">
+
+- With Title
+
+<a name = "link_without_title">
+
+- Without Title
+
 
 <a name="Picture">
 
