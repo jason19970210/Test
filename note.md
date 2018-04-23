@@ -1181,7 +1181,12 @@ Example
 - this will be highlighted in red
 \```
 ```
-### Reference
+Then it will goes like
+
+```diff
++ this will be highlighted in green
+- this will be highlighted in red
+```
 
 ----
 <a name="Terminal" />
