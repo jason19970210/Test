@@ -1175,12 +1175,12 @@ Example
 	![1](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/1.png)
 	```
 ## Highlight Text in diff
-
-```diff
+```
+\```diff
 + this will be highlighted in green
 - this will be highlighted in red
+\```
 ```
-
 ### Reference
 
 ----
