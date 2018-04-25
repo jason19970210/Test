@@ -86,6 +86,7 @@
 		+ #### [Without Title](#link_without_title)
 	+ #### [Picture](#Picture)
 	+ #### [Highlight Text in diff](#diff_highlight)
+	+ #### [Folding](#Folding)
 
 + ### [Terminal](#Terminal)
 
@@ -1203,6 +1204,7 @@ Then it will goes like
 - this will be highlighted in red
 ```
 
+<a name = "Folding">
 
 ## Folding
 
