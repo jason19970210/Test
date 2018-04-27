@@ -1,17 +1,6 @@
 # NOTE
 # Contents
 
-
-+ <details>
-	<summary>
-	### [GitHub](#GitHub)
-	</summary>
-	+ #### [Command Lines](#Command_Lines)
-	+ ##### [Large File Support](#github_lfs)
-	+ #### [GitHub Pages](#GitHub_Pages)
-</details>
-
-
 + ### [GitHub](#GitHub)
 	+ #### [Command Lines](#Command_Lines)
 		+ ##### [Large File Support](#github_lfs)
