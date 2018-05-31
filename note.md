@@ -9,6 +9,9 @@
 + ### [Swift](#Swift)
 	+ #### [Data Type](#Swift_Data_Type)
 	+ #### [UIWebView](#UIWebView)
+	+ #### [Tesseract OCR](#Swift_Tesseract)
+		+ #### [Install](#swift_install_tesseact_ocr)
+		+ #### [Configure in Swift after install](#Configure_in_Swift_after_install)
 
 + ### [Python3](#Python3)
 	+ #### [Comment](#Comment)
@@ -249,6 +252,42 @@
 <a name='Swift_Data_Type' />
 
 ### Data Type
+
+
+<a name="Swift_Tesseract"/>
+
+### Tesseract OCR
+
+<a name="swift_install_tesseact_ocr" />
+
+#### Install
+
++ Create a Xcode Project if you don't have one to start with tesseract
++ Open _Terminal_ and `cd` forward
++ Enter `pod init`
++ Then a new file named `podfile` and a new folder will be added into the project folder
++ Edit `podfile`
+	```
+	target 'project_name' do
+  	use_frameworks!
+  	pod 'TesseractOCRiOS'
+	end
+	```
++ Back to _Terminal_ and enter `pod install`
++ Done !
+
+<a name="Configure_in_Swift_after_install">
+
+#### Configure in Swift after install
++ In the root folder of project, select `Target`
++ Select `Build Phases` > `Link Binary With Libraries`
+	+ add 3 items into this setting
+		- CoreImage.framework
+		- TesseractOCR.framework
+		- libstdc++.tbd
++ Add training language data source which can find [here](https://github.com/tesseract-ocr/tesseract/wiki/Data-Files)
++ Download training data, and make a folder named ``
+
 
 <a name="UIWebView" />
 
