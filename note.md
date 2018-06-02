@@ -9,6 +9,7 @@
 + ### [Swift](#Swift)
 	+ #### [Data Type](#Swift_Data_Type)
 	+ #### [UIWebView](#UIWebView)
+	+ #### [JSON](#Swift_JSON)
 	+ #### [Tesseract OCR](#Swift_Tesseract)
 		+ #### [Install](#swift_install_tesseact_ocr)
 		+ #### [Configure in Swift after install](#Configure_in_Swift_after_install)
@@ -292,6 +293,7 @@
 <a name="UIWebView" />
 
 ### UIWebView
+
 #### Make UIWebView support `http`
 
 + Method 1
@@ -314,6 +316,12 @@
 	- Click the arrow to make it down as a Dictionary
 	- Press `+` & Choose `Allow Arbitary Loads`
 	- Set the boolean value from default NO to `YES`
+
+
+
+<a name = "Swift_JSON">
+
+### JSON
 ----
 <a name="Python3" />
 
