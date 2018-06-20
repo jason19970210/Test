@@ -301,6 +301,8 @@
 ### Permission
 #### When developing in Swift, we often use some hardware devices.  
 #### We should set up the permission in the `info.plist` file
+> Right click on info.plist 
+> select `Open As` > `Source Code`
 
 
 <a name = "Swift_Permission_HttpRequest" />
