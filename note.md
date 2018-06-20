@@ -308,11 +308,11 @@
 + ##### Http Request
 
 ```swift
-		<key>NSAppTransportSecurity</key>
-		<dict>
-    		<key>NSAllowsArbitraryLoads</key>
-    		<true/>
-    	</dict>
+<key>NSAppTransportSecurity</key>
+<dict>
+	<key>NSAllowsArbitraryLoads</key>
+	<true/>
+</dict>
 ```
 
 
@@ -322,8 +322,8 @@
 + ##### Camera
 
 ```swift
-		<key>NSCameraUsageDescription</key>
-		<string>Allow to access camera</string>
+<key>NSCameraUsageDescription</key>
+<string>Allow to access camera</string>
 ```
 
 
@@ -332,8 +332,8 @@
 + ##### Microphone
 
 ```swift
-		<key>NSMicrophoneUsageDescription</key>
-		<string>Allow to access microphone</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>Allow to access microphone</string>
 ```
 
 
@@ -343,10 +343,10 @@
 
 
 ```swift
-		<key>NSPhotoLibraryAddUsageDescription</key>
-		<string>Allow to add media into photo album</string>
-		<key>NSPhotolibraryusageDescription</key>
-		<string>Allow to access photo album</string>
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>Allow to add media into photo album</string>
+<key>NSPhotolibraryusageDescription</key>
+<string>Allow to access photo album</string>
 ```
 
 
@@ -355,10 +355,10 @@
 + ##### Location(#Swift_Permission_Location)
 
 ```swift
-		<key>NSLocationAlwaysUsageDescription</key>
-		<string>Allow to access user location</string>
-		<key>NSLocationWhenInUseUsageDescription</key>
-		<string>Allow to access user location</string>
+<key>NSLocationAlwaysUsageDescription</key>
+<string>Allow to access user location</string>
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>Allow to access user location</string>
 ```
 
 
