@@ -10,6 +10,7 @@
 	+ #### [Data Type](#Swift_Data_Type)
 	+ #### [UIWebView](#UIWebView)
 	+ #### [JSON](#Swift_JSON)
+	+ #### [Permission](#Swift_Permission)
 	+ #### [Tesseract OCR](#Swift_Tesseract)
 		+ #### [Install](#swift_install_tesseact_ocr)
 		+ #### [Configure in Swift after install](#Configure_in_Swift_after_install)
@@ -319,9 +320,14 @@
 
 
 
-<a name = "Swift_JSON">
+<a name="Swift_JSON" />
 
 ### JSON
+
++ Under Development
+
+
+
 ----
 <a name="Python3" />
 
