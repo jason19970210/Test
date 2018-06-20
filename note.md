@@ -8,12 +8,14 @@
 
 + ### [Swift](#Swift)
 	+ #### [Data Type](#Swift_Data_Type)
-	+ #### [UIWebView](#UIWebView)
 	+ #### [JSON](#Swift_JSON)
 	+ #### [Permission](#Swift_Permission)
-	+ #### [Tesseract OCR](#Swift_Tesseract)
-		+ #### [Install](#swift_install_tesseact_ocr)
-		+ #### [Configure in Swift after install](#Configure_in_Swift_after_install)
+		+ ##### [Http Request](#Swift_Permission_HttpRequest)
+		+ ##### [Camera](#Swift_Permission_Camera)
+		+ ##### [Microphone](#Swift_Permission_Microphone)
+		+ ##### [Photo Album](#Swift_Permission_PhotoAlbum)
+		+ ##### [Location](#Swift_Permission_Location)
+	
 
 + ### [Python3](#Python3)
 	+ #### [Comment](#Comment)
@@ -256,42 +258,8 @@
 ### Data Type
 
 
-<a name="Swift_Tesseract"/>
 
-### Tesseract OCR
-
-<a name="swift_install_tesseact_ocr" />
-
-#### Install
-
-+ Create a Xcode Project if you don't have one to start with tesseract
-+ Open _Terminal_ and `cd` forward
-+ Enter `pod init`
-+ Then a new file named `podfile` and a new folder will be added into the project folder
-+ Edit `podfile`
-	```
-	target 'project_name' do
-  	use_frameworks!
-  	pod 'TesseractOCRiOS'
-	end
-	```
-+ Back to _Terminal_ and enter `pod install`
-+ Done !
-
-<a name="Configure_in_Swift_after_install">
-
-#### Configure in Swift after install
-+ In the root folder of project, select `Target`
-+ Select `Build Phases` > `Link Binary With Libraries`
-	+ add 3 items into this setting
-		- CoreImage.framework
-		- TesseractOCR.framework
-		- libstdc++.tbd
-+ Add training language data source which can find [here](https://github.com/tesseract-ocr/tesseract/wiki/Data-Files)
-+ Download training data, and make a folder named ``
-
-
-<a name="UIWebView" />
+<a name="Swift_UIWebView" />
 
 ### UIWebView
 
@@ -320,11 +288,79 @@
 
 
 
-<a name="Swift_JSON" />
+<a name= "Swift_JSON" />
 
 ### JSON
 
 + Under Development
+
+
+
+<a name = "Swift_Permission" />
+
+### Permission
+#### When developing in Swift, we often use some hardware devices.  
+#### We should set up the permission in the `info.plist` file
+
+
+<a name = "Swift_Permission_HttpRequest" />
+
++ ##### Http Request
+
+```swift
+		<key>NSAppTransportSecurity</key>
+		<dict>
+    		<key>NSAllowsArbitraryLoads</key>
+    		<true/>
+    	</dict>
+```
+
+
+
+<a name = "Swift_Permission_Camera" />
+
++ ##### Camera
+
+```swift
+		<key>NSCameraUsageDescription</key>
+		<string>Allow to access camera</string>
+```
+
+
+<a name = "Swift_Permission_Microphone" />
+
++ ##### Microphone
+
+```swift
+		<key>NSMicrophoneUsageDescription</key>
+		<string>Allow to access microphone</string>
+```
+
+
+<a name =  "Swift_Permission_PhotoAlbum" />
+
++ ##### Photo Album(#Swift_Permission_PhotoAlbum)
+
+
+```swift
+		<key>NSPhotoLibraryAddUsageDescription</key>
+		<string>Allow to add media into photo album</string>
+		<key>NSPhotolibraryusageDescription</key>
+		<string>Allow to access photo album</string>
+```
+
+
+<a name =  "Swift_Permission_Location" />
+
++ ##### Location(#Swift_Permission_Location)
+
+```swift
+		<key>NSLocationAlwaysUsageDescription</key>
+		<string>Allow to access user location</string>
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>Allow to access user location</string>
+```
+
 
 
 
