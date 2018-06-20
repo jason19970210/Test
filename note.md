@@ -310,8 +310,8 @@
 ```swift
 <key>NSAppTransportSecurity</key>
 <dict>
-	<key>NSAllowsArbitraryLoads</key>
-	<true/>
+  <key>NSAllowsArbitraryLoads</key>
+  <true/>
 </dict>
 ```
 
