@@ -258,6 +258,49 @@
 ### Data Type
 
 
+<a name = "Swift_UITabBar" >
+
+### Custom UITabBar tintColor & barTintColor & backgroundColor
+
+
+#### Entire UITabbar, code @ Appdelegate.swift
+
+##### tintColor
+```swift
+UITabBar.appearance().tintColor = UIColor.white
+```
+
+##### barTintColor
+```swift
+UITabBar.appearance().barTintColor = UIColor.white
+```
+
+##### backgroundColor
+```swift
+UITabBar.appearance().backgroundColor = UIColor.white
+```
+
+
+#### Specific ViewController UITabbar, code @ ViewController.swift
+
+##### tintColor
+```swift
+self.tabBarController?.tabBatbar.TintColor = UIColor.white
+```
+
+##### barTintColor
+```swift
+self.tabBarController?.tabBatbar.barTintColor = UIColor.white
+```
+
+##### backgroundColor
+```swift
+self.tabBarController?.tabBatbar.backgroundColor = UIColor.white
+```
+
+
+
+
 
 <a name="Swift_UIWebView" />
 
@@ -301,8 +344,7 @@
 ### Permission
 #### When developing in Swift, we often use some hardware devices.  
 #### We should set up the permission in the `info.plist` file
-> Right click on info.plist 
-> select `Open As` > `Source Code`
+> Right click on `info.plist` & select `Open As` > `Source Code`
 
 
 <a name = "Swift_Permission_HttpRequest" />
