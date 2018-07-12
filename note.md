@@ -9,6 +9,11 @@
 + ### [Swift](#Swift)
 	+ #### [Data Type](#Swift_Data_Type)
 	+ #### [JSON](#Swift_JSON)
+	+ #### [UI Attributes](#Swift_UIAttributes)
+		+ ##### [UITabBar](#Swift_UITabBar])
+			+ ###### tintColor
+			+ ###### barTintColor
+			+ ###### backgroundColor
 	+ #### [Permission](#Swift_Permission)
 		+ ##### [Http Request](#Swift_Permission_HttpRequest)
 		+ ##### [Camera](#Swift_Permission_Camera)
@@ -258,9 +263,14 @@
 ### Data Type
 
 
-<a name = "Swift_UITabBar" >
+<a name = "Swift_UIAttributes">
 
-### Custom UITabBar tintColor & barTintColor & backgroundColor
+## UI Attributes
+
+
+<a name = "Swift_UITabBar" />
+
+### Custom UITabBar tintColor & barTintColor & backgroundColor Swift_UITabBar
 
 
 #### Entire UITabbar, code @ Appdelegate.swift
