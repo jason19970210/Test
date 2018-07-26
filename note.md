@@ -50,7 +50,9 @@
 		+ #### [If-Else Function](#Python_If_Else)
 		+ #### [For Loop Function](#Python_Loop_Function)
 		+ #### [Import](#Python_Import)
-	+ #### [爬蟲](#)
+		+ #### [Function](#Python_Function)
+	+ #### [爬蟲](#Python_Scapying)
+	+ #### [AIY Goolge Voice Kit](#Python_VoiceKit)
 
 + ### [Jupyter Notebook](#Jupyter_Notebook)
 	+ #### [Shortcuts](#Shortcuts)
