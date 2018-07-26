@@ -965,6 +965,13 @@ Using `UTF-8`,`Unicode Strings`
 		+ 解析 HTML
 	+ ### 
 
+<a name = "Python_Scapying"/>
+
+### 爬蟲
+
+<a name = "Python_VoiceKit"/>
+
+### AIY Goolge Voice Kit With raspberrypi model B+ (Version 1)
 
 ----
 <a name="Jupyter_Notebook" />
