@@ -971,7 +971,11 @@ Using `UTF-8`,`Unicode Strings`
 
 <a name = "Python_VoiceKit"/>
 
-### AIY Goolge Voice Kit With raspberrypi model B+ (Version 1)
+### AIY Goolge Voice Kit with raspberrypi model B+ (Version 1)
+
++ ### Setup Voice Kit
+	+ #### Software (raspberrypi)
+	+ #### Hardware
 
 ----
 <a name="Jupyter_Notebook" />
