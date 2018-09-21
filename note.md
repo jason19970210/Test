@@ -976,6 +976,8 @@ Using `UTF-8`,`Unicode Strings`
 + ### Setup Voice Kit
 	+ #### Software (raspberrypi)
 	+ #### Hardware
++ ### Custom Your Own Kit
+	+ #### Control speaker
 
 ----
 <a name="Jupyter_Notebook" />
