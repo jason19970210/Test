@@ -1,0 +1,26 @@
+Application version: 2.6.2.0
+Estimated print time: 2h 12m
+Material usage: 6.62m (21g)
+Printer: Zortrax M200 Plus
+Profile: Last settings - modified
+Material: PLA-based filament
+Layer: 0.14 mm
+Quality: Default
+Infill: 50%
+Fan speed: Auto
+Seam: Normal
+Outer contours: 0.00
+Holes: 0.00
+Surface layers Top: 6
+Surface layers Bottom: 3
+Support Lite: No
+Smart bridges: No
+Print speed: +0%
+Extruder flow ratio: +0%
+Top layer infill (%): 100
+Bottom layer infill (%): 100
+Extrusion temp.: 203
+Platform temp.: 30
+Retraction speed: 40
+Retraction distance: 1.2
+First layer gap: 0.27 mm
