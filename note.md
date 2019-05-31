@@ -383,6 +383,10 @@ Example
 ## Subscript & Superscript (上標 & 下標)
 
 - 上標 Superscript : `<sup> </sup>`
+```
+a<sup>2</sup>
+```
+a<sup>2</sup>
 - 下標 Subscript : `<sub> </sub>`
 
 <a name="Code" />
