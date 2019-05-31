@@ -475,7 +475,7 @@ Then it will goes like
 
 
 ----
-<a name="Terminal" />
+<a name="Terminal">
 
 # Terminal
 
