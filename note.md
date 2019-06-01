@@ -501,6 +501,9 @@ Then it will goes like
 + ps -ax
 + sudo su -
 	> set authority to `root`
++ pwpolicy -clearaccountpolicies
+	> decline all password security checking for global  
+	> for me to set short password as well
 
 + apachectl start
 	> Start Apache
