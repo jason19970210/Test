@@ -397,6 +397,11 @@ a<sup>2</sup>
 
 ## Table
 
+aaa | bbb | ccc
+--- | --- | ---
+123 | 121 | 122
+
+
 <a name="Link" />
 
 ## Link
@@ -507,7 +512,8 @@ Then it will goes like
 
 + apachectl start
 	> Start Apache
-+ 
++ sudo purge
+	> Cleaning the memory of MacOS
 
 ----
 <a name="Hacker" />
