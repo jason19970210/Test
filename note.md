@@ -520,12 +520,5 @@ Then it will goes like
 	> Start Apache
 + sudo purge
 	> Cleaning the memory of MacOS
-
-----
-<a name="Hacker" />
-
-# Hacker
-
-<a name = "Network_Panatration" />
-
-## Network Panatration
++ scp -r username@ipaddress:path/on/remote/server path/to/localhost
+	> copy the folder with `-r` option to the localhost, without `-r` can only transfer the file
