@@ -490,7 +490,7 @@ Then it will goes like
 
 
 ----
-<a name="Terminal">
+<a name="Terminal" />
 
 # Terminal
 
@@ -522,3 +522,5 @@ Then it will goes like
 	> Cleaning the memory of MacOS
 + scp -r username@ipaddress:path/on/remote/server path/to/localhost
 	> copy the folder with `-r` option to the localhost, without `-r` can only transfer the file
++ scp -r localhost/path/folder username@ipaddress:path
+	> copy the folder from local to remote server
