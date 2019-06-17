@@ -1,0 +1,8 @@
+library(xml2)
+library(dplyr)
+library(plotly)
+
+pm2 <- read.csv("https://raw.githubusercontent.com/jason19970210/Test/master/pm25.csv",stringsAsFactors = F)
+
+
+pm2 %>% plot_ly(x = .$CO, y = .$CO_8, type = 'scatter', mode = 'markers')

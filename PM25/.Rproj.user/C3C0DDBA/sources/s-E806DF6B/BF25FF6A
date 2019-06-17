@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1560814976732.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BF25FF6A",
+    "lastKnownWriteTime" : -8321552453184875876,
+    "last_content_update" : 1560814976732,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "F08AB11A",
+        "caption" : "pm2",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=pm2&cache_key=F08AB11A",
+        "displayedObservations" : 81,
+        "environment" : "",
+        "object" : "pm2",
+        "preview" : 0,
+        "totalObservations" : 81,
+        "variables" : 42
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
