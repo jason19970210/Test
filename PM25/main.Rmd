@@ -19,7 +19,7 @@ library(ggplot2)
 ## Data Import
 ```{r data_import}
 pm2 <- read.csv("https://raw.githubusercontent.com/jason19970210/Test/master/PM25/pm25.csv",stringsAsFactors = F)
-head(pm2)
+#head(pm2)
 ```
 
 ## Data Processing
