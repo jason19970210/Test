@@ -524,3 +524,8 @@ Then it will goes like
 	> copy the folder with `-r` option to the localhost, without `-r` can only transfer the file
 + scp -r localhost/path/folder username@ipaddress:path
 	> copy the folder from local to remote server
+
+
++ Linux Error : sudo: unable to resolve host xxx
+	> $ sudo vim /etc/hosts  
+	> #change origin hostname to current hostname
