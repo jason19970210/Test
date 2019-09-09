@@ -514,7 +514,8 @@ Then it will goes like
 	> set authority to `root`
 + pwpolicy -clearaccountpolicies
 	> decline all password security checking for global  
-	> for me to set short password as well
+	> for me to set short password as well  
+	> after enter this command, type the password then go to `Setting` to change the password for our own
 
 + apachectl start
 	> Start Apache
