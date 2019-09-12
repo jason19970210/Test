@@ -524,3 +524,23 @@ Then it will goes like
 	> copy the folder with `-r` option to the localhost, without `-r` can only transfer the file
 + scp -r localhost/path/folder username@ipaddress:path
 	> copy the folder from local to remote server
+
+
+
+
+# Raspberry Pi (Linux)
++ Change Update Mirror
+	- $ sudo nano /etc/apt/sources.list
+	- lines like this
+		```
+		deb http://xxxxxxx.com/raspbain/raspbian buster main contrib non-free rpi
+		# Uncomment ....
+		```
+	- change http website from list of mirrors around the world  
+	( https://www.raspbian.org/RaspbianMirrors )
++ Check OS Version & info
+	- $ cat /etc/os-release
++ Install Go Lang & Check install version
+	- ref : https://www.admfactory.com/how-to-install-golang-on-raspberry-pi/
+	- $ sudo apt-get install golang
+	- $ go version
