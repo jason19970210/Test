@@ -514,7 +514,8 @@ Then it will goes like
 	> set authority to `root`
 + pwpolicy -clearaccountpolicies
 	> decline all password security checking for global  
-	> for me to set short password as well
+	> for me to set short password as well  
+	> after enter this command, type the password then go to `Setting` to change the password for our own
 
 + apachectl start
 	> Start Apache
@@ -526,6 +527,27 @@ Then it will goes like
 	> copy the folder from local to remote server
 
 
+<<<<<<< HEAD
+
+
+# Raspberry Pi (Linux)
++ Change Update Mirror
+	- $ sudo nano /etc/apt/sources.list
+	- lines like this
+		```
+		deb http://xxxxxxx.com/raspbain/raspbian buster main contrib non-free rpi
+		# Uncomment ....
+		```
+	- change http website from list of mirrors around the world  
+	( https://www.raspbian.org/RaspbianMirrors )
++ Check OS Version & info
+	- $ cat /etc/os-release
++ Install Go Lang & Check install version
+	- ref : https://www.admfactory.com/how-to-install-golang-on-raspberry-pi/
+	- $ sudo apt-get install golang
+	- $ go version
+=======
 + Linux Error : sudo: unable to resolve host xxx
 	> $ sudo vim /etc/hosts  
 	> #change origin hostname to current hostname
+>>>>>>> 2544fff5d6c05ff5fa27fa3c5f1293123633cf2f
