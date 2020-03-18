@@ -1,6 +1,7 @@
 # DO NOT DELETE
 # Test
 testing
+<button name="button" onclick="http://www.google.com">Click me</button>
 
 ### 3#
 > quote
