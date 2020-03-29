@@ -516,7 +516,10 @@ Then it will goes like
 	> decline all password security checking for global  
 	> for me to set short password as well  
 	> after enter this command, type the password then go to `Setting` to change the password for our own
-
++ xcode-select --install
+	> Install Xcode Dev Tool by command-line
++ sudo codesign --force --deep --sign - /Applications/name.app
+	> Re-sign the signature of the application
 + apachectl start
 	> Start Apache
 + sudo purge
