@@ -543,7 +543,7 @@ Then it will goes like
 		```
 	- change http website from list of mirrors around the world  
 	(https://www.raspbian.org/RaspbianMirrors)
-	- SOLVE GPG Public Key not avaiable
+	- SOLVE GPG Public Key not avaiable (https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=114692&p=833262&hilit=NO_PUBKEY#p833353)   
 	`$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys <KEYNUMBERHERE>`
 - Check OS Version & info
 	- `$ cat /etc/os-release`
