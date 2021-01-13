@@ -532,6 +532,7 @@ Then it will goes like
 	> make "Time Machine" runs at `full` speed
 + sudo sysctl debug.lowpri_throttle_enabled=1
 	> make "Time Machine" runs at `default` speed
+> Ref : https://www.digit77.com/skills/macos/speed-up-time-machine.html
 
 
 
