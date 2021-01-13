@@ -528,9 +528,12 @@ Then it will goes like
 	> copy the folder with `-r` option to the localhost, without `-r` can only transfer the file
 + scp -r localhost/path/folder username@ipaddress:path
 	> copy the folder from local to remote server
++ sudo sysctl debug.lowpri_throttle_enabled=0
+	> make "Time Machine" runs at `full` speed
++ sudo sysctl debug.lowpri_throttle_enabled=1
+	> make "Time Machine" runs at `default` speed
 
 
-<<<<<<< HEAD
 
 
 # Raspberry Pi (Linux)
