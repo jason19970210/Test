@@ -50,6 +50,8 @@
 
 + ### [Terminal](#Terminal)
 
++ ### [Windows Terminal](#Windows_Terminal)
+
 + ### [Hacker](#Hacker)
 	+ #### [Network Panatration](#Network_Panatration)
 
@@ -534,8 +536,13 @@ Then it will goes like
 	> make "Time Machine" runs at `default` speed
 > Ref : https://www.digit77.com/skills/macos/speed-up-time-machine.html
 
+<a name='Windows_Terminal'/>
 
-
+### Windows Terminal
+- Use `gsudo` to exec PowerShell as admin
+	- https://ithelp.ithome.com.tw/articles/10230798
+- Change UAC Behavior `[Option 1]`
+	- https://www.tenforums.com/tutorials/112621-change-uac-prompt-behavior-administrators-windows.html
 
 # Raspberry Pi (Linux)
 - Change apt update mirror source
