@@ -535,6 +535,11 @@ Then it will goes like
 + sudo sysctl debug.lowpri_throttle_enabled=1
 	> make "Time Machine" runs at `default` speed
 > Ref : https://www.digit77.com/skills/macos/speed-up-time-machine.html
++ `custom launchpad rows & columns`
+```shell
+defaults write com.apple.dock springboard-columns -int <COLUMNS>;defaults write com.apple.dock springboard-rows -int <ROWS>;defaults write com.apple.dock ResetLaunchPad -bool TRUE;killall Dock
+```
+> https://applefans.today/macos-launchpad-column-and-rows
 
 <a name='Windows_Terminal'/>
 
