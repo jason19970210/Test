@@ -522,6 +522,8 @@ Then it will goes like
 	> Install Xcode Dev Tool by command-line
 + sudo codesign --force --deep --sign - /Applications/name.app
 	> Re-sign the signature of the application
++ sudo xattr -d com.apple.quarantine /Applications/name.app
+ 	> Re-sign the signature of the application
 + apachectl start
 	> Start Apache
 + sudo purge
